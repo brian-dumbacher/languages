@@ -1,0 +1,173 @@
+pos|word|adjFeminine|adjNeuter|declension|definition
+ADJ|absconditus|abscondita|absconditum|12|hidden, secret
+ADJ|acer|acris|acre|3|keen, severe, fierce
+ADJ|acerbus|acerba|acerbum|12|harsh, bitter, grievous
+ADJ|adultus|adulta|adultum|12|grown up, mature, adult
+ADJ|adversus|adversa|adversum|12|adverse
+ADJ|aeternus|aeterna|aeternum|12|eternal
+ADJ|alienus|aliena|alienum|12|belonging to another
+ADJ|alter|altera|alterum|12|the other (of two), second
+ADJ|altus|alta|altum|12|high, deep
+ADJ|angustus|angusta|angustum|12|narrow, limited
+ADJ|antiquus|antiqua|antiquum|12|ancient, old-time, of old
+ADJ|aptus|apta|aptum|12|fit, suitable
+ADJ|asper|aspera|asperum|12|rough, harsh
+ADJ|ater|atra|atrum|12|dark
+ADJ|aureus|aurea|aureum|12|golden
+ADJ|avarus|avara|avarum|12|greedy, avaricious
+ADJ|balbus|balba|balbum|12|stammering, stuttering
+ADJ|beatus|beata|beatum|12|happy, fortunate
+ADJ|bellicus|bellica|bellicum|12|relating to war, military
+ADJ|bellus|bella|bellum|12|pretty, handsome, charming
+ADJ|bonus|bona|bonum|12|good, kind
+ADJ|brevis|brevis|breve|3|short, small, brief
+ADJ|caecus|caeca|caecum|12|blind
+ADJ|candidus|candida|candidum|12|shining, bright, white
+ADJ|carus|cara|carum|12|dear
+ADJ|celer|celeris|celere|3|quick, rapid
+ADJ|certus|certa|certum|12|definite, sure, certain, reliable
+ADJ|ceteri|ceterae|cetera|12|the remaining, the rest, the other
+ADJ|clarus|clara|clarum|12|clear, bright; renowned, famous, illustrious
+ADJ|communis|communis|commune|3|common, general
+ADJ|conscius|conscia|conscium|12|conscious, aware of
+ADJ|creber|crebra|crebrum|12|thick; frequent, numerous
+ADJ|cupidus|cupida|cupidum|12|desirous, eager, fond
+ADJ|curvus|curva|curvum|12|curved, crooked, wrong
+ADJ|decimus|decima|decimum|12|tenth
+ADJ|destinatus|destinata|destinatum|12|resolved, resolute, firm
+ADJ|dexter|dextra|dextrum|12|right
+ADJ|difficilis|difficilis|difficile|3|hard, difficult, troublesome
+ADJ|dignus|digna|dignum|12|worthy
+ADJ|divinus|divina|divinum|12|divine, sacred
+ADJ|doctus|docta|doctum|12|taught, learned, skilled
+ADJ|domesticus|domestica|domesticum|12|domestic; civil
+ADJ|dominicus|dominica|dominicum|12|belonging to a master; the Lord's
+ADJ|dulcis|dulcis|dulce|3|sweet; pleasant, agreeable
+ADJ|durus|dura|durum|12|hard, harsh, rough, stern, unfeeling
+ADJ|eloquens|eloquens|eloquens|3|eloquent
+ADJ|eximius|eximia|eximium|12|extraordinary
+ADJ|exquisitus|exquisita|exquisitum|12|sought-out, exquisite, excellent
+ADJ|externus|externa|externum|12|foreign
+ADJ|extremus|extrema|extremum|12|outermost, last, extreme
+ADJ|falsus|falsa|falsum|12|false, deceptive
+ADJ|ferus|fera|ferum|12|wild, uncivilized, fierce
+ADJ|finitus|finita|finitum|12|finite, limited, bounded
+ADJ|firmus|firma|firmum|12|firm, strong, reliable
+ADJ|fortis|fortis|forte|3|strong, brave
+ADJ|fortunatus|fortunata|fortunatum|12|lucky, fortunate, happy
+ADJ|furtificus|furtifica|furtificum|12|thievish
+ADJ|Graecus|Graeca|Graecum|12|Greek
+ADJ|gratus|grata|gratum|12|pleasing, agreeable; grateful
+ADJ|gravis|gravis|grave|3|heavy, weighty, serious, important, severe, grievous
+ADJ|horrendus|horrenda|horrendum|12|horrible, dreadful
+ADJ|humanus|humana|humanum|12|human
+ADJ|humilis|humilis|humile|3|lowly, humble
+ADJ|ignarus|ignara|ignarum|12|ignorant
+ADJ|immodicus|immodica|immodicum|12|beyond measure, immoderate, excessive
+ADJ|immortalis|immortalis|immortale|3|immortal
+ADJ|immotus|immota|immotum|12|unmoved
+ADJ|imperiosus|imperiosa|imperiosum|12|powerful, domineering, imperious
+ADJ|improvidus|improvida|improvidum|12|improvident
+ADJ|impunitus|impunita|impunitum|12|unpunished, unrestrained, safe
+ADJ|incertus|incerta|incertum|12|uncertain, doubtful
+ADJ|incorruptus|incorrupta|incorruptum|12|uncorrupted
+ADJ|indignus|indigna|indignum|12|unworthy
+ADJ|industrius|industria|industrium|12|industrious, diligent
+ADJ|inexpugnabilis|inexpugnabilis|inexpugnabile|3|impregnable
+ADJ|infinitus|infinita|infinitum|12|infinite
+ADJ|infirmus|infirma|infirmum|12|not strong, weak
+ADJ|informis|informis|informe|3|formless, hideous
+ADJ|infortunatus|infortunata|infortunatum|12|unfortunate
+ADJ|ingens|ingens|ingens|3|huge
+ADJ|ingratus|ingrata|ingratum|12|unpleasant, ungrateful
+ADJ|iniquus|iniqua|iniquum|12|unequal, unfair, unjust
+ADJ|insons|insons|insons|3|guiltless, innocent
+ADJ|integer|integra|integrum|12|untouched, whole, unhurt
+ADJ|invitus|invita|invitum|12|against one's will
+ADJ|iucundus|iucunda|iucundum|12|agreeable, pleasant, gratifying
+ADJ|iustus|iusta|iustum|12|just, right
+ADJ|levis|levis|leve|3|light, slight, trivial, fickle
+ADJ|liber|libera|liberum|12|free
+ADJ|longus|longa|longum|12|long
+ADJ|magnus|magna|magnum|12|large, great, important
+ADJ|malus|mala|malum|12|bad, evil, wicked
+ADJ|mendosus|mendosa|mendosum|12|faulty
+ADJ|meus|mea|meum|12|my
+ADJ|miser|misera|miserum|12|wretched, miserable, unfortunate
+ADJ|molestus|molesta|molestum|12|troublesome, disagreeable, annoying
+ADJ|mortalis|mortalis|mortale|3|mortal
+ADJ|mortuus|mortua|mortuum|12|dead
+ADJ|multi|multae|multa|12|many
+ADJ|multus|multa|multum|12|much
+ADJ|mutabilis|mutabilis|mutabile|3|changeable
+ADJ|necessarius|necessaria|necessarium|12|necessary
+ADJ|niger|nigra|nigrum|12|black
+ADJ|niveus|nivea|niveum|12|snowy
+ADJ|noster|nostra|nostrum|12|our
+ADJ|novus|nova|novum|12|new; strange
+ADJ|obstinatus|obstinata|obstinatum|12|firm, resolved
+ADJ|omnis|omnis|omne|3|all, every
+ADJ|opportunus|opportuna|opportunum|12|fit, suitable, advantageous, opportune
+ADJ|parvus|parva|parvum|12|small, little
+ADJ|pauci|paucae|pauca|12|few
+ADJ|perfectus|perfecta|perfectum|12|complete, perfect
+ADJ|periculosus|periculosa|periculosum|12|dangerous
+ADJ|peritus|perita|peritum|12|skillful
+ADJ|perniciosus|perniciosa|perniciosum|12|destructive, pernicious
+ADJ|perpetuus|perpetua|perpetuum|12|perpetual, lasting, uninterrupted, continuous
+ADJ|piger|pigra|pigrum|12|lazy, slow, dull
+ADJ|plenus|plena|plenum|12|full
+ADJ|poeticus|poetica|poeticum|12|poetic
+ADJ|potens|potens|potens|3|able, powerful, mighty, strong
+ADJ|praeclarus|praeclara|praeclarum|12|remarkable
+ADJ|primus|prima|primum|12|first, foremost, chief, principal
+ADJ|pristinus|pristina|pristinum|12|former
+ADJ|proprius|propria|proprium|12|one's own, peculiar, proper, personal, characteristic
+ADJ|prudens|prudens|prudens|3|wise, prudent
+ADJ|publicus|publica|publicum|12|of the people, public
+ADJ|pudicus|pudica|pudicum|12|modest, chaste
+ADJ|pulcher|pulchra|pulchrum|12|beautiful
+ADJ|purus|pura|purum|12|pure
+ADJ|quartus|quarta|quartum|12|fourth
+ADJ|rarus|rara|rarum|12|rare
+ADJ|rectus|recta|rectum|12|right
+ADJ|reflectus|reflecta|reflectum|12|bent back
+ADJ|rhetoricus|rhetorica|rhetoricum|12|of rhetoric, rhetorical
+ADJ|Romanus|Romana|Romanum|12|Roman
+ADJ|rotundus|rotunda|rotundum|12|wheel-shaped, round
+ADJ|rusticus|rustica|rusticum|12|rustic, rural
+ADJ|sacrilegus|sacrilega|sacrilegum|12|sacrilegious, impious
+ADJ|saevus|saeva|saevum|12|cruel
+ADJ|salsus|salsa|salsum|12|salty; witty
+ADJ|salvus|salva|salvum|12|safe, sound
+ADJ|sanctus|sancta|sanctum|12|sacred, holy
+ADJ|sanus|sana|sanum|12|sound, sane
+ADJ|sceleratus|scelerata|sceleratum|12|criminal, wicked, accursed
+ADJ|scelestus|scelesta|scelestum|12|wicked, accursed, infamous
+ADJ|secundus|secunda|secundum|12|second
+ADJ|senex|senex|senex|3|old, aged
+ADJ|similis|similis|simile|3|similar, like, resembling
+ADJ|simplex|simplex|simplex|3|simple, unaffected
+ADJ|sollicitus|sollicita|sollicitum|12|troubled, anxious
+ADJ|studiosus|studiosa|studiosum|12|full of zeal, eager, fond of
+ADJ|stultus|stulta|stultum|12|foolish
+ADJ|subitus|subita|subitum|12|sudden
+ADJ|superbus|superba|superbum|12|overbearing, haughty, proud
+ADJ|suus|sua|suum|12|his, her, its, their own
+ADJ|tantus|tanta|tantum|12|so large, so great, of such size
+ADJ|tardus|tarda|tardum|12|slow, tardy
+ADJ|tertius|tertia|tertium|12|third
+ADJ|tonsorius|tonsoria|tonsorium|12|of or pertaining to a barber, barber's
+ADJ|tristis|tristis|triste|3|sad
+ADJ|turpis|turpis|turpe|3|ugly, shameful, base, disgraceful
+ADJ|tutus|tuta|tutum|12|protected, safe, secure
+ADJ|tuus|tua|tuum|12|your (singular)
+ADJ|urbanus|urbana|urbanum|12|of the city, urban, urbane
+ADJ|utilis|utilis|utile|3|useful, advantageous
+ADJ|vacuus|vacua|vacuum|12|empty, devoid of, free from
+ADJ|varius|varia|varium|12|various, varied, different; fickle
+ADJ|vehemens|vehemens|vehemens|3|powerful
+ADJ|verus|vera|verum|12|true, real
+ADJ|vester|vestra|vestrum|12|your (plural)
+ADJ|vitiosus|vitiosa|vitiosum|12|full of vice, vicious
+ADJ|voluntarius|voluntaria|voluntarium|12|voluntary
