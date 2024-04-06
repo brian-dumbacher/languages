@@ -1,0 +1,221 @@
+pos|word|fpsaPresent|fpsaPerfect|ppp|conjugation|definition
+VERB|abire|abeo|abii|abitus|4|to go away, depart
+VERB|accedere|accedo|accessi|accessus|3|to come near, approach
+VERB|accommodare|accommodo|accommodavi|accommodatus|1|to adjust, adapt
+VERB|accusare|accuso|accusavi|accusatus|1|to accuse
+VERB|acquirere|acquiro|acquisivi|acquisitus|3|to acquire, gain
+VERB|adire|adeo|adii|aditus|4|to go to, approach, visit
+VERB|adiuvare|adiuvo|adiuvi|adiutus|1|to help, aid, assist; to please
+VERB|admittere|admitto|admisi|admissus|3|to admit, receive
+VERB|admonere|admoneo|admonui|admonitus|2|to advise, warn
+VERB|agere|ago|egi|actus|3|to drive, lead, do, act; to pass, spend (life or time)
+VERB|alere|alo|alui|altus|3|to nourish, support, sustain, increase, cherish
+VERB|algere|algeo|alsi||2|to be cold, neglected
+VERB|amare|amo|amavi|amatus|1|to love, like
+VERB|ambulare|ambulo|ambulavi|ambulatus|1|to walk
+VERB|amittere|amitto|amisi|amissus|3|to lose, let go
+VERB|appellare|appello|appellavi|appellatus|1|to call, name
+VERB|approbare|approbo|approbavi|approbatus|1|to approve
+VERB|arare|aro|aravi|aratus|1|to plow
+VERB|audere|audeo|||2|to dare
+VERB|audire|audio|audivi|auditus|4|to hear, listen to
+VERB|bibere|bibo|bibi||3|to drink
+VERB|cadere|cado|cecidi|casus|3|to fall
+VERB|cantare|canto|cantavi|cantatus|1|to sing
+VERB|capere|capio|cepi|captus|3|to take, capture, seize, get
+VERB|captare|capto|captavi|captatus|1|to grab, seek to get, hunt for
+VERB|carere|careo|carui||2|to lack, want, be without, be deprived of, be free from
+VERB|carpere|carpo|carpsi|carptus|3|to pluck, seize
+VERB|cavere|caveo|cavi|cautus|2|to beware, avoid
+VERB|cedere|cedo|cessi|cessus|3|to go, withdraw; to yield to, submit, grant
+VERB|cenare|ceno|cenavi|cenatus|1|to dine
+VERB|cernere|cerno|crevi|cretus|3|to distinguish, discern, perceive
+VERB|claudere|claudo|clausi|clausus|3|to shut, close
+VERB|cogere|cogo|coegi|coactus|3|to drive or bring together, force, compel
+VERB|cogitare|cogito|cogitavi|cogitatus|1|to think, ponder, consider, plan
+VERB|cognoscere|cognosco|cognovi|cognitus|3|to become acquainted with, learn, recognize; to know
+VERB|colere|colo|colui|cultus|3|to cultivate, pursue
+VERB|colligere|colligo|collegi|collectus|3|to gather together, collect
+VERB|collocare|colloco|collocavi|collocatus|1|to place, put, arrange
+VERB|committere|committo|commisi|commissus|3|to entrust, commit
+VERB|comparare|comparo|comparavi|comparatus|1|to compare
+VERB|conservare|conservo|conservavi|conservatus|1|to preserve, conserve
+VERB|contendere|contendo|contendi|contentus|3|to hasten
+VERB|continere|contineo|continui|contentus|2|to hold together, contain, keep, enclose, restrain
+VERB|convertere|converto|converti|conversus|3|to turn around, cause to turn
+VERB|convocare|convoco|convocavi|convocatus|1|to call together, convene
+VERB|corrigere|corrigo|correxi|correctus|3|to make right, correct
+VERB|corroborare|corroboro|corroboravi|corroboratus|1|to strengthen
+VERB|corrumpere|corrumpo|corrupi|corruptus|3|to ruin, corrupt
+VERB|creare|creo|creavi|creatus|1|to create
+VERB|credere|credo|credidi|creditus|3|to believe, trust
+VERB|culpare|culpo|culpavi|culpatus|1|to blame, censure
+VERB|cupere|cupio|cupivi|cupitus|3|to desire, wish, long for
+VERB|curare|curo|curavi|curatus|1|to take care of
+VERB|currere|curro|cucurri|cursus|3|to run
+VERB|damnare|damno|damnavi|damnatus|1|to condemn
+VERB|dare|do|dedi|datus|1|to give, offer
+VERB|debere|debeo|debui|debitus|2|to owe; ought, must
+VERB|declamare|declamo|declamavi|declamatus|1|to declaim
+VERB|declinare|declino|declinavi|declinatus|1|to lean away from
+VERB|defendere|defendo|defendi|defensus|3|to ward off, defend, protect
+VERB|deficere|deficio|defeci|defectus|3|to fail
+VERB|delectare|delecto|delectavi|delectatus|1|to delight, charm, please
+VERB|delere|deleo|delevi|deletus|2|to destroy, wipe out, delete, erase
+VERB|demonstrare|demonstro|demonstravi|demonstratus|1|to point out, show, demonstrate
+VERB|deportare|deporto|deportavi|deportatus|1|to carry away
+VERB|desiderare|desidero|desideravi|desideratus|1|to desire
+VERB|devocare|devoco|devocavi|devocatus|1|to call down or away
+VERB|dicere|dico|dixi|dictus|3|to say, tell, speak; to call, name
+VERB|dictare|dicto|dictavi|dictatus|1|to say repeatedly, dictate
+VERB|diligere|diligo|dilexi|dilectus|3|to esteem, love
+VERB|discedere|discedo|discessi|discessus|3|to depart
+VERB|discere|disco|didici||3|to learn
+VERB|disputare|disputo|disputavi|disputatus|1|to discuss
+VERB|dissimulare|dissimulo|dissimulavi|dissimulatus|1|to conceal
+VERB|distinguere|distinguo|distinxi|distinctus|3|to distinguish
+VERB|docere|doceo|docui|doctus|2|to teach
+VERB|dolere|doleo|dolui||2|to grieve, suffer
+VERB|dormire|dormio|dormivi|dormitus|4|to sleep
+VERB|dubitare|dubito|dubitavi|dubitatus|1|to doubt, hesitate, waver
+VERB|ducere|duco|duxi|ductus|3|to lead; to consider, regard; to prolong
+VERB|durare|duro|duravi|duratus|1|to harden, last, endure
+VERB|educare|educo|educavi|educatus|1|to bring up, educate
+VERB|educere|educo|eduxi|eductus|3|to lead out
+VERB|egere|egeo|egui||2|to need, lack, want
+VERB|eicere|eicio|eieci|eiectus|3|to throw out, drive out
+VERB|emendare|emendo|emendavi|emendatus|1|to correct, emend
+VERB|emere|emo|emi|emptus|3|to buy
+VERB|errare|erro|erravi|erratus|1|to wander, err, go astray, be mistaken
+VERB|exclamare|exclamo|exclamavi|exclamatus|1|to cry out, call out
+VERB|explere|expleo|explevi|expletus|2|to fill, fill up, complete
+VERB|exponere|expono|exposui|expositus|3|to set forth, explain, expose
+VERB|exspectare|exspecto|exspectavi|exspectatus|1|to look for, expect, await
+VERB|extorquere|extorqueo|extorsi|extortus|2|to twist away, extort
+VERB|facere|facio|feci|factus|3|to make, do, accomplish
+VERB|ferre|fero|tuli|latus|3|to bear, carry, bring; to suffer, endure, tolerate; to say, report
+VERB|festinare|festino|festinavi|festinatus|1|to hasten, make haste
+VERB|fluere|fluo|fluxi|fluxus|3|to flow
+VERB|formare|formo|formavi|formatus|1|to form, shape, fashion
+VERB|fugare|fugo|fugavi|fugatus|1|to put to flight, rout
+VERB|fugere|fugio|fugi|fugitus|3|to flee; to avoid, shun
+VERB|fulgere|fulgeo|fulsi||2|to flash, shine
+VERB|gerere|gero|gessi|gestus|3|to carry, carry on, manage; to conduct, perform; to accomplish
+VERB|gustare|gusto|gustavi|gustatus|1|to taste
+VERB|habere|habeo|habui|habitus|2|to have, hold, possess; to consider, regard
+VERB|iacere|iacio|ieci|iactus|3|to throw, hurl
+VERB|illacrimare|illacrimo|illacrimavi|illacrimatus|1|to weep over
+VERB|imminere|immineo|||2|to overhang, threaten
+VERB|imperare|impero|imperavi|imperatus|1|to give orders to, command
+VERB|implere|impleo|implevi|impletus|2|to complete
+VERB|incipere|incipio|incepi|inceptus|3|to begin, commence
+VERB|includere|includo|inclusi|inclusus|3|to shut in, enclose
+VERB|insurgere|insurgo|insurrexi|insurrectus|3|to rise up
+VERB|intelligere|intelligo|intellexi|intellectus|3|to understand
+VERB|intrare|intro|intravi|intratus|1|to walk into, enter
+VERB|invenire|invenio|inveni|inventus|4|to come upon, find
+VERB|ire|eo|ii|itus|4|to go
+VERB|irritare|irrito|irritavi|irritatus|1|to excite, exasperate
+VERB|iubere|iubeo|iussi|iussus|2|to bid, order, command
+VERB|iungere|iungo|iunxi|iunctus|3|to join
+VERB|iuvare|iuvo|iuvi|iutus|1|to help, aid, assist; to please
+VERB|laborare|laboro|laboravi|laboratus|1|to labor; to be in distress
+VERB|laudare|laudo|laudavi|laudatus|1|to praise
+VERB|legere|lego|legi|lectus|3|to pick out, choose; to read
+VERB|liberare|libero|liberavi|liberatus|1|to free, liberate
+VERB|ludere|ludo|lusi|lusus|3|to play
+VERB|manere|maneo|mansi|mansus|2|to remain, stay, abide, continue
+VERB|miscere|misceo|miscui|mixtus|2|to mix
+VERB|mittere|mitto|misi|missus|3|to send, let go
+VERB|mollire|mollio|mollivi|mollitus|4|to soften
+VERB|monere|moneo|monui|monitus|2|to advise, warn
+VERB|movere|moveo|movi|motus|2|to move; to arouse, affect
+VERB|multare|multo|multavi|multatus|1|to punish
+VERB|munire|munio|munivi|munitus|4|to fortify, defend; to build a road
+VERB|mutare|muto|mutavi|mutatus|1|to change, alter; to exchange
+VERB|narrare|narro|narravi|narratus|1|to narate, tell
+VERB|navigare|navigo|navigavi|navigatus|1|to sail
+VERB|necare|neco|necavi|necatus|1|to murder, kill
+VERB|neglegere|neglego|neglexi|neglectus|3|to neglect, disregard
+VERB|obdurare|obduro|obduravi|obduratus|1|to be hard, persist, endure
+VERB|obruere|obruo|obrui|obrutus|3|to overwhelm, bury
+VERB|occupare|occupo|occupavi|occupatus|1|to seize
+VERB|onerare|onero|oneravi|oneratus|1|to load, oppress
+VERB|optare|opto|optavi|optatus|1|to wish
+VERB|parare|paro|paravi|paratus|1|to prepare, provide, get, obtain
+VERB|parere|pario|peperi|partus|3|to beget, produce
+VERB|peccare|pecco|peccavi|peccatus|1|to sin
+VERB|perdere|perdo|perdidi|perditus|3|to destroy, ruin, lose
+VERB|perimere|perimo|peremi|peremptus|3|to destroy
+VERB|perire|pereo|perii|peritus|4|to perish
+VERB|permittere|permitto|permisi|permissus|3|to permit, allow
+VERB|perscribere|perscribo|perscripsi|perscriptus|3|to write out, place on record
+VERB|persuadere|persuadeo|persuasi|persuasus|2|to make sweet to, persuade
+VERB|perterrere|perterreo|perterrui|perterritus|2|to frighten thoroughly, terrify
+VERB|pertinere|pertineo|pertinui|pertentus|2|to pertain to, relate to, concern
+VERB|perturbare|perturbo|perturbavi|perturbatus|1|to throw into confusion; to trouble, disturb, perturb
+VERB|petere|peto|petivi|petitus|3|to seek, aim at, beg, beseech
+VERB|pipiare|pipio|pipiavi|pipiatus|1|to chirp
+VERB|placare|placo|placavi|placatus|1|to placate, appease
+VERB|placere|placeo|placui|placitus|2|to be pleasing to, please
+VERB|ponere|pono|posui|positus|3|to put, place, set
+VERB|praeferre|praefero|praetuli|praelatus|3|to display
+VERB|privare|privo|privavi|privatus|1|to deprive
+VERB|profundere|profundo|profudi|profusus|3|to pour forth
+VERB|prohibere|prohibeo|prohibui|prohibitus|2|to prevent, hinder, restrain, prohibit
+VERB|pronuntiare|pronuntio|pronuntiavi|pronuntiatus|1|to proclaim, announce; to declaim
+VERB|pugnare|pugno|pugnavi|pugnatus|1|to fight
+VERB|punire|punio|punivi|punitus|4|to punish
+VERB|purgare|purgo|purgavi|purgatus|1|to cleanse
+VERB|putare|puto|putavi|putatus|1|to reckon, suppose, judge, think, imagine
+VERB|quaerere|quaero|quaesivi|quaesitus|3|to seek, look for, strive for; to ask, inquire
+VERB|rapere|rapio|rapui|raptus|3|to seize, snatch, carry away
+VERB|recedere|recedo|recessi|recessus|3|to go back, retire, recede, withdraw
+VERB|recitare|recito|recitavi|recitatus|1|to read aloud, recite
+VERB|recognoscere|recognosco|recognovi|recognitus|3|to recognize, recollect
+VERB|recusare|recuso|recusavi|recusatus|1|to refuse, reject
+VERB|referre|refero|rettuli|relatus|3|to bear back, refer
+VERB|reflectere|reflecto|reflexi|reflectus|3|to bend back
+VERB|regere|rego|rexi|rectus|3|to rule
+VERB|relegere|relego|relegi|relectus|3|to re-read
+VERB|relevare|relevo|relevavi|relevatus|1|to relieve, diminish
+VERB|remanere|remaneo|remansi|remansus|2|to remain, stay behind, abide, continue
+VERB|revocare|revoco|revocavi|revocatus|1|to call back, recall
+VERB|ridere|rideo|risi|risus|2|to laugh, laugh at
+VERB|rogare|rogo|rogavi|rogatus|1|to ask, seek
+VERB|salutare|saluto|salutavi|salutatus|1|to greet
+VERB|salvere|salveo|||2|to be well, be in good health
+VERB|satiare|satio|satiavi|satiatus|1|to satisfy, sate
+VERB|scribere|scribo|scripsi|scriptus|3|to write, compose
+VERB|sedere|sedeo|sedi|sessum|2|to sit
+VERB|sentire|sentio|sensi|sensus|4|to feel, perceive, think, experience
+VERB|servare|servo|servavi|servatus|1|to preserve, save, keep
+VERB|sitire|sitio|sitivi||4|to be thirsty
+VERB|spargere|spargo|sparsi|sparsus|3|to scatter, spread, strew
+VERB|spectare|specto|spectavi|spectatus|1|to look at, see
+VERB|sperare|spero|speravi|speratus|1|to hope for, hope
+VERB|stare|sto|steti|status|1|to stand, stand still or firm
+VERB|studere|studeo|studui||2|to direct one's zeal to, be eager for, study
+VERB|superare|supero|superavi|superatus|1|to be above, have the upper hand; to suprass, overcome, conquer
+VERB|surgere|surgo|surrexi|surrectus|3|to get up, arise
+VERB|sustinere|sustineo|sustinui|sustentus|2|to hold up, sustain, endure
+VERB|tacere|taceo|tacui|tacitus|2|to be silent, leave unmentioned
+VERB|tangere|tango|tetigi|tactus|3|to touch
+VERB|tegere|tego|texi|tectus|3|to cover, hide, protect
+VERB|tendere|tendo|tetendi|tensus|3|to stretch, extend; to go
+VERB|tenere|teneo|tenui|tentus|2|to hold, keep, possess, restrain
+VERB|terrere|terreo|terrui|territus|2|to frighten, terrify
+VERB|timere|timeo|timui||2|to fear, be afraid, be afraid of
+VERB|tolerare|tolero|toleravi|toleratus|1|to bear, endure, tolerate
+VERB|tondere|tondeo|totondi|tonsus|2|to shave, cut
+VERB|trahere|traho|traxi|tractus|3|to draw, drag
+VERB|vacare|vaco|vacavi|vacatus|1|to be free from
+VERB|valere|valeo|valui||2|to be strong, have power; to be well, fare well
+VERB|venire|venio|veni|ventus|4|to come
+VERB|versare|verso|versavi|versatus|1|to turn; to change
+VERB|videre|video|vidi|visus|2|to see, observe; to understand
+VERB|vincere|vinco|vici|victus|3|to conquer, overcome
+VERB|vitare|vito|vitavi|vitatus|1|to avoid, shun
+VERB|vivere|vivo|vixi|victus|3|to live
+VERB|vocare|voco|vocavi|vocatus|1|to call, summon
+VERB|volare|volo|volavi|volatus|1|to fly

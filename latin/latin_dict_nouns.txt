@@ -1,0 +1,449 @@
+pos|word|base|stemType|declension|gender|definition
+NOUN|abundantia|abundanti||1|F|abundance
+NOUN|accusator|accusator|consonant|3|M|accuser
+NOUN|acerbitas|acerbitat|consonant|3|F|harshness
+NOUN|acta|act||1|F|beach
+NOUN|actarius|actari||2|M|clerk, bookkeeper, secretary
+NOUN|actum|act||2|N|act, deed; transaction
+NOUN|adulescens|adulescent|i|3|M|young man, adolescent
+NOUN|adulescentia|adulescenti||1|F|youth, adolescence
+NOUN|aetas|aetat|consonant|3|F|period of life, life, age, an age, time
+NOUN|ager|agr||2|M|field
+NOUN|agricola|agricol||1|M|farmer, peasant
+NOUN|agricultura|agricultur||1|F|agriculture
+NOUN|ambitio|ambition|consonant|3|F|canvassing for votes; ambition; flattery
+NOUN|amica|amic||1|F|female friend
+NOUN|amicitia|amiciti||1|F|friendship
+NOUN|amiculum|amicul||2|N|cloak
+NOUN|amicus|amic||2|M|male friend
+NOUN|amor|amor|consonant|3|M|love
+NOUN|ancilla|ancill||1|F|maidservant
+NOUN|angelus|angel||2|M|angel
+NOUN|angulus|angul||2|M|corner
+NOUN|anima|anim||1|F|the breath of life
+NOUN|animal|animal|i|3|N|animal
+NOUN|animi|anim||2|M|high spirits, pride, courage
+NOUN|animus|anim||2|M|soul, spirit, mind
+NOUN|annus|ann||2|M|year
+NOUN|apparatus|apparat||4|M|equipment, splendor
+NOUN|aqua|aqu||1|F|water
+NOUN|ara|ar||1|F|altar
+NOUN|aranea|arane||1|F|spider's web
+NOUN|arbor|arbor|consonant|3|F|tree
+NOUN|arcus|arc||4|M|bow
+NOUN|argentum|argent||2|N|silver, money
+NOUN|argumentum|argument||2|N|proof, evidence
+NOUN|arma|arm||2|N|arms, weapons
+NOUN|ars|art|i|3|F|art, skill
+NOUN|arx|arc|i|3|F|citadel, stronghold
+NOUN|Asia|Asi||1|F|Roman province in Asia Minor
+NOUN|Athenae|Athen||1|F|Athens
+NOUN|auctor|auctor|consonant|3|M|author
+NOUN|auctoritas|auctoritat|consonant|3|F|authority
+NOUN|audacia|audaci||1|F|daring, boldness, audacity
+NOUN|auriga|aurig||1|M|charioteer
+NOUN|auris|aur|i|3|F|ear
+NOUN|aurum|aur||2|N|gold
+NOUN|auxilium|auxili||2|N|aid, help
+NOUN|avaritia|avariti||1|F|greed, avarice
+NOUN|barba|barb||1|F|beard
+NOUN|basium|basi||2|N|kiss
+NOUN|bellum|bell||2|N|war
+NOUN|beneficium|benefici||2|N|benefit, kindness, favor
+NOUN|benevolentia|benevolenti||1|F|good will, kindness, benevolence
+NOUN|bestia|besti||1|F|beast
+NOUN|bos|bov|consonant|3|M|bull, ox, cow
+NOUN|brevitas|brevitat|consonant|3|F|shortness, brevity
+NOUN|Britannia|Britanni||1|F|Britain
+NOUN|caelum|cael||2|N|sky, heaven
+NOUN|calamitas|calamitat|consonant|3|F|misfortune, disaster
+NOUN|calculus|calcul||2|M|pebble
+NOUN|campana|campan||1|F|bell
+NOUN|canis|can|consonant|3|M|dog
+NOUN|capillus|capill||2|M|hair (of head or beard)
+NOUN|caput|capit|consonant|3|N|head
+NOUN|carbo|carbon|consonant|3|M|coal, charcoal
+NOUN|carmen|carmin|consonant|3|N|song, poem
+NOUN|catena|caten||1|F|chain
+NOUN|causa|caus||1|F|cause, reason; case, situation
+NOUN|cavus|cav||2|M|hole
+NOUN|celeritas|celeritat|consonant|3|F|swiftness, speed
+NOUN|cena|cen||1|F|dinner
+NOUN|cervus|cerv||2|M|stag, deer
+NOUN|cicuta|cicut||1|F|hemlock
+NOUN|cinis|ciner|consonant|3|M|ashes
+NOUN|civis|civ|i|3|M|citizen
+NOUN|civitas|civitat|consonant|3|F|state, citizenship, city
+NOUN|clementia|clementi||1|F|mildness, gentleness, mercy, clemency
+NOUN|cliens|client|i|3|M|a dependent, client
+NOUN|collum|coll||2|N|neck
+NOUN|color|color|consonant|3|M|color
+NOUN|concilium|concili||2|N|council
+NOUN|coniuratus|coniurat||2|M|conspirator
+NOUN|conscientia|conscienti||1|F|consciousness, knowledge; conscience
+NOUN|consilium|consili||2|N|plan, purpose; advice, counsel; judgment
+NOUN|consul|consul|consonant|3|M|consul
+NOUN|consultum|consult||2|N|decree
+NOUN|convita|convit||1|M|dinner guest
+NOUN|copia|copi||1|F|abundance, supply
+NOUN|copiae|copi||1|F|supplies, troops, forces
+NOUN|cornu|corn||4|N|horn
+NOUN|corona|coron||1|F|crown
+NOUN|corpus|corpor|consonant|3|N|body
+NOUN|creator|creator|consonant|3|M|creator
+NOUN|creatura|creatur||1|F|creature
+NOUN|crustulum|crustul||2|N|pastry, cookie
+NOUN|cubiculum|cubicul||2|N|bedroom, room
+NOUN|culpa|culp||1|F|fault, blame
+NOUN|cultura|cultur||1|F|cultivation
+NOUN|cunctatio|cunctation|consonant|3|F|delay
+NOUN|cupiditas|cupiditat|consonant|3|F|desire, longing, passion, cupidity, avarice
+NOUN|cupido|cupidin|consonant|3|F|desire, passion
+NOUN|cura|cur||1|F|care, attention, caution, anxiety
+NOUN|custodia|custodi||1|F|protection, custody
+NOUN|custodiae|custodi||1|F|guards
+NOUN|custos|custod|consonant|3|M|guardian, guard
+NOUN|dea|de||1|F|goddess
+NOUN|decor|decor|consonant|3|M|beauty, grace
+NOUN|decretum|decret||2|N|decree
+NOUN|dens|dent|i|3|M|tooth
+NOUN|detrimentum|detriment||2|N|loss, detriment
+NOUN|deus|de||2|M|god
+NOUN|diabolus|diabol||2|M|devil
+NOUN|dictator|dictator|consonant|3|M|dictator
+NOUN|dimidium|dimidi||2|N|half
+NOUN|discipula|discipul||1|F|female learner, pupil, disciple
+NOUN|discipulus|discipul||2|M|male learner, pupil, disciple
+NOUN|disputatio|disputation|consonant|3|F|discussion, debate
+NOUN|divitiae|diviti||1|F|riches, wealth
+NOUN|doctrina|doctrin||1|F|teaching, instruction, learning
+NOUN|dolor|dolor|consonant|3|M|pain, grief
+NOUN|domina|domin||1|F|mistress
+NOUN|dominus|domin||2|M|master, lord
+NOUN|domus|dom||4|F|house, home
+NOUN|donum|don||2|N|gift, present
+NOUN|dubium|dubi||2|N|doubt
+NOUN|dux|duc|consonant|3|M|leader, guide, commander, general
+NOUN|ecclesia|ecclesi||1|F|church
+NOUN|elementum|element||2|N|element, first principle
+NOUN|elephantus|elephant||2|M|elephant
+NOUN|eloquentia|eloquenti||1|F|eloquence
+NOUN|epigramma|epigrammat|consonant|3|N|inscription, epigram
+NOUN|epistula|epistul||1|F|letter, epistle
+NOUN|eques|equit|consonant|3|M|horseman
+NOUN|equus|equ||2|M|horse
+NOUN|error|error|consonant|3|M|error
+NOUN|eventus|event||2|M|outcome
+NOUN|excellentia|excellenti||1|F|excellence, merit
+NOUN|excusatio|excusation|consonant|3|F|excuse
+NOUN|exemplar|exemplar|i|3|N|model, pattern, original
+NOUN|exemplum|exempl||2|N|example, model
+NOUN|exercitus|exercit||4|M|army
+NOUN|exitium|exiti||2|N|destruction
+NOUN|exsilium|exsili||2|N|exile, banishment
+NOUN|fabula|fabul||1|F|story, tale; play
+NOUN|factum|fact||2|N|deed, act, achievement
+NOUN|facultas|facultat|consonant|3|F|ability, skill, opportunity, means
+NOUN|fama|fam||1|F|rumor, report; fame, reputation
+NOUN|familia|famili||1|F|household, family
+NOUN|fas|fas||||right, sacred duty
+NOUN|fatum|fat||2|N|fate
+NOUN|femina|femin||1|F|woman
+NOUN|fenestra|fenestr||1|F|window
+NOUN|ferrum|ferr||2|N|iron; sword
+NOUN|festinatio|festination|consonant|3|F|haste
+NOUN|filia|fili||1|F|daughter
+NOUN|filius|fili||2|M|son
+NOUN|fines|fin|i|3|M|boundaries, territory
+NOUN|finis|fin|i|3|M|end, limit, boundary, purpose
+NOUN|flamma|flamm||1|F|flame, fire
+NOUN|flumen|flumin|consonant|3|N|river
+NOUN|forma|form||1|F|form, shape; beauty
+NOUN|formica|formic||1|F|ant
+NOUN|fors|fort|i|3|F|chance, accident, fortune
+NOUN|fortuna|fortun||1|F|fortune, luck
+NOUN|forum|for||2|N|market place, forum
+NOUN|frater|fratr|consonant|3|M|brother
+NOUN|fructus|fruct||4|M|fruit, profit, enjoyment
+NOUN|frugalitas|frugalitat|consonant|3|F|frugality
+NOUN|fuga|fug||1|F|flight
+NOUN|fugitivus|fugitiv||2|M|fugitive, deserter, runaway slave
+NOUN|furor|furor|consonant|3|M|rage, frenzy, madness
+NOUN|furor|furor|consonant|3|M|rage, frenzy, madness
+NOUN|gaudium|gaudi||2|N|joy, delight
+NOUN|gens|gent|i|3|F|clan, race, nation, people
+NOUN|genus|gener|consonant|3|N|kind, sort, class
+NOUN|gladius|gladi||2|M|sword
+NOUN|gloria|glori||1|F|glory, fame
+NOUN|Graecia|Graeci||1|F|Greece
+NOUN|Graecus|Graec||2|M|a Greek
+NOUN|gratia|grati||1|F|gratitude, favor
+NOUN|gravitas|gravitat|consonant|3|F|weight, seriousness, importance, dignity
+NOUN|hamus|ham||2|M|hook
+NOUN|homo|homin|consonant|3|M|man
+NOUN|honor|honor|consonant|3|M|honor, office
+NOUN|hora|hor||1|F|hour, time
+NOUN|hortus|hort||2|M|garden
+NOUN|hospes|hospit|consonant|3|M|stranger, guest; host
+NOUN|hostes|host|i|3|M|the enemy
+NOUN|hostis|host|i|3|M|an enemy (of the state)
+NOUN|humanitas|humanitat|consonant|3|F|kindness, culture, refinement
+NOUN|hypocrita|hypocrit||1|F|hypocrite
+NOUN|iaculum|iacul||2|N|dart, javelin
+NOUN|ianua|ianu||1|F|door
+NOUN|ignis|ign|i|3|M|fire
+NOUN|imago|imagin|consonant|3|M|image, likeness
+NOUN|immortalis|immortal|i|3|M|an immortal
+NOUN|imperium|imperi||2|N|supreme power, authority; command, control
+NOUN|incola|incol||1|M|inhabitant
+NOUN|industria|industri||1|F|industry, diligence
+NOUN|infantia|infanti||1|F|infancy
+NOUN|inferi|infer||2|M|those below, the dead
+NOUN|inimicus|inimic||2|M|personal enemy
+NOUN|initium|initi||2|N|beginning, commencement
+NOUN|iniuria|iniuri||1|F|injustice, injury, wrong
+NOUN|insania|insani||1|F|unsoundness, insanity
+NOUN|insidiae|insidi||1|F|ambush, plot, treachery
+NOUN|insula|insul||1|F|island
+NOUN|invidia|invidi||1|F|envy, jealousy; dislike, hatred
+NOUN|ira|ir||1|F|ire, anger
+NOUN|Italia|Itali||1|F|Italy
+NOUN|iter|itiner|consonant|3|N|road way
+NOUN|iudex|iudic|consonant|3|M|judge, juror
+NOUN|iudicium|iudici||2|N|judgment, decision, opinion
+NOUN|ius|iur|consonant|3|N|right, law
+NOUN|iuvenis|iuven|consonant|3|M|a youth, young person
+NOUN|labor|labor|consonant|3|M|labor, work, toil
+NOUN|labrum|labr||2|N|lip
+NOUN|laus|laud|consonant|3|F|praise
+NOUN|libellus|libell||2|M|little book
+NOUN|liber|libr||2|M|book
+NOUN|libertas|libertat|consonant|3|F|liberty, freedom
+NOUN|lingua|lingu||1|F|tongue, language
+NOUN|littera|litter||1|F|a letter of the alphabet
+NOUN|litterae|litter||1|F|letter; literature
+NOUN|loca|loc||2|N|places, region
+NOUN|loci|loc||2|M|passages in literature
+NOUN|locus|loc||2|M|place; passage in literature
+NOUN|lucrum|lucr||2|N|gain, profit
+NOUN|ludus|lud||2|M|game, sport; school
+NOUN|luna|lun||1|F|moon
+NOUN|lupus|lup||2|M|wolf
+NOUN|lux|luc|consonant|3|F|light
+NOUN|luxuria|luxuri||1|F|luxury, extravagance
+NOUN|magister|magistr||2|M|male schoolmaster, teacher, master
+NOUN|magistra|magistr||1|F|female schoolmaster, teacher, master
+NOUN|maiestas|maiestat|consonant|3|F|greatness, dignity, majesty
+NOUN|malum|mal||2|N|misfortune, evil deed
+NOUN|mandatum|mandat||2|N|order, command, instruction
+NOUN|manus|man||4|F|hand; band; handwriting
+NOUN|mare|mar|i|3|N|sea
+NOUN|maritus|marit||2|M|husband
+NOUN|mater|matr|consonant|3|F|mother
+NOUN|materia|materi||1|F|material, matter
+NOUN|matrimonium|matrimoni||2|N|marriage
+NOUN|medicus|medic||2|M|doctor
+NOUN|memoria|memori||1|F|memory, recollection
+NOUN|mens|ment|i|3|F|mind, thought, intention
+NOUN|mensa|mens||1|F|table
+NOUN|mensis|mens|i|3|M|month
+NOUN|merces|merced|consonant|3|F|pay, reward, recompense
+NOUN|metus|met||4|M|feat, dread, anxiety
+NOUN|miles|milit|consonant|3|M|soldier
+NOUN|modus|mod||2|M|measure, bound, limit; moderation; manner, method, mode, way
+NOUN|moles|mol|i|3|F|mass, structure
+NOUN|monitio|monition|consonant|3|F|admonition, warning
+NOUN|mons|mont|i|3|M|mountain
+NOUN|monstrum|monstr||2|N|portent; monster
+NOUN|mora|mor||1|F|delay
+NOUN|morbus|morb||2|M|disease, sickness
+NOUN|mores|mor|consonant|3|M|habits, character
+NOUN|mors|mort|i|3|F|death
+NOUN|mortalis|mortal|i|3|M|a mortal
+NOUN|mos|mor|consonant|3|M|habit, custom, manner
+NOUN|mulier|mulier|consonant|3|F|woman
+NOUN|mundus|mund||2|M|world, universe
+NOUN|munimentum|muniment||2|N|fortification, protection, defense
+NOUN|munus|muner|consonant|3|N|service, office, function, duty; gift
+NOUN|mus|mur|consonant|3|M|mouse
+NOUN|musa|mus||1|F|muse
+NOUN|mutatio|mutation|consonant|3|F|change
+NOUN|natio|nation|consonant|3|F|nation, people
+NOUN|natura|natur||1|F|nature
+NOUN|nauta|naut||1|M|sailor
+NOUN|navis|nav|i|3|F|ship
+NOUN|nefas|nefas||||wrong, sin
+NOUN|nihil|nihil||||nothing
+NOUN|nomen|nomin|consonant|3|N|name
+NOUN|nox|noct|i|3|F|night
+NOUN|nubes|nub|i|3|F|cloud
+NOUN|numerus|numer||2|M|number
+NOUN|nuntius|nunti||2|M|messenger
+NOUN|obsequium|obsequi||2|N|compliance
+NOUN|occasio|occasion|consonant|3|F|opportunity
+NOUN|oculus|ocul||2|M|eye
+NOUN|odium|odi||2|N|hatred
+NOUN|officium|offici||2|N|duty, service
+NOUN|onus|oner|consonant|3|N|burden, load
+NOUN|opera|oper|consonant|3|N|work, pains, help
+NOUN|opes|op|consonant|3|F|power, resources, wealth
+NOUN|opprobrium|opprobri||2|N|reproach, taunt, disgrace
+NOUN|ops|op|consonant|3|F|help, aid
+NOUN|opus|oper|consonant|3|N|work, task; deed, accomplishment
+NOUN|orator|orator|consonant|3|M|orator, speaker
+NOUN|orbis|orb|i|3|M|circle, orb
+NOUN|ordo|ordin|consonant|3|M|rank, class, order
+NOUN|os|or|consonant|3|N|mouth
+NOUN|ostium|osti||2|N|entrance, door
+NOUN|otium|oti||2|N|leisure, peace
+NOUN|ovis|ov|i|3|F|sheep
+NOUN|paedagogus|paedagog||2|M|slave who attended a boy at school
+NOUN|paganus|pagan||2|M|countryman, peasant; pagan
+NOUN|palma|palm||1|F|palm branch of victory
+NOUN|panis|pan|i|3|M|bread
+NOUN|paries|pariet|consonant|3|M|wall of a building
+NOUN|parmula|parmul||1|F|little shield
+NOUN|pars|part|i|3|F|part, share; direction
+NOUN|passer|passer|consonant|3|M|sparrow
+NOUN|pater|patr|consonant|3|M|father
+NOUN|patientia|patienti||1|F|suffering, patience, endurance
+NOUN|patria|patri||1|F|fatherland, native land, one's country
+NOUN|paupertas|paupertat|consonant|3|F|small means, poverty
+NOUN|pax|pac|consonant|3|F|peace
+NOUN|pectus|pector|consonant|3|N|breast, heart
+NOUN|pecunia|pecuni||1|F|money
+NOUN|periculum|pericul||2|N|danger
+NOUN|pes|ped|consonant|3|M|foot
+NOUN|pestis|pest|i|3|F|plague, pestilence, curse, destruction
+NOUN|philosophia|philosophi||1|F|philosophy, love of wisdom
+NOUN|philosophus|philosoph||2|M|philosopher
+NOUN|pirata|pirat||1|M|pirate
+NOUN|piscis|pisc|i|3|M|fish
+NOUN|platea|plate||1|F|broad way, street
+NOUN|plebs|pleb|consonant|3|F|the common people
+NOUN|poema|poemat|consonant|3|N|poem
+NOUN|poena|poen||1|F|penalty, punishment
+NOUN|poeta|poet||1|M|poet
+NOUN|pomum|pom||2|N|fruit, apple
+NOUN|pons|pont|i|3|M|bridge
+NOUN|populus|popul||2|M|the people, a nation
+NOUN|porta|port||1|F|gate, entrance
+NOUN|possessio|possession|consonant|3|F|possession, property
+NOUN|praeceptum|praecept||2|N|precept
+NOUN|praemium|praemi||2|N|reward
+NOUN|praesidium|praesidi||2|N|guard, detachment, protection
+NOUN|princeps|princip|consonant|3|N|chief
+NOUN|principium|principi||2|N|beginning
+NOUN|privatus|privat||2|M|private citizen
+NOUN|probitas|probitat|consonant|3|F|uprightness, honesty, probity
+NOUN|proditor|proditor|consonant|3|M|betrayer
+NOUN|proelium|proeli||2|N|battle
+NOUN|provincia|provinci||1|F|province
+NOUN|prudentia|prudenti||1|F|foresight, wisdom, direction
+NOUN|pudor|pudor|consonant|3|M|bashfulness, modesty
+NOUN|puella|puell||1|F|girl
+NOUN|puer|puer||2|M|boy
+NOUN|pugna|pugn||1|F|fight, battle
+NOUN|pulchritudo|pulchritudin|consonant|3|F|beauty
+NOUN|ratio|ration|consonant|3|F|calculation; reason, judgment, consideration; system; manner, method
+NOUN|recuperatio|recuperation|consonant|3|F|recovery
+NOUN|regina|regin||1|F|queen
+NOUN|remedium|remedi||2|N|remedy
+NOUN|rex|reg|consonant|3|M|king
+NOUN|Roma|Rom||1|F|Rome
+NOUN|Romanus|Roman||2|M|a Roman
+NOUN|rosa|ros||1|F|rose
+NOUN|rostra|rostr||2|N|speaker's platform
+NOUN|rostrum|rostr||2|N|beak of a ship
+NOUN|rota|rot||1|F|wheel
+NOUN|rumor|rumor|consonant|3|M|rumor, gossip
+NOUN|rus|rur|consonant|3|N|country (opposite of city)
+NOUN|sacculus|saccul||2|M|little bag, purse
+NOUN|sacrificium|sacrifici||2|N|sacrifice
+NOUN|saeculum|saecul||2|N|century, age
+NOUN|sagitta|sagitt||1|F|arrow
+NOUN|sal|sal|consonant|3|M|salt; wit
+NOUN|salus|salut|consonant|3|F|safety
+NOUN|sapiens|sapient|i|3|M|wise man, philosopher
+NOUN|sapientia|sapienti||1|F|wisdom
+NOUN|satura|satur||1|F|satire
+NOUN|scelus|sceler|consonant|3|N|evil deed, crime, sin, wickedness
+NOUN|schola|schol||1|F|school
+NOUN|scientia|scienti||1|F|knowledge, science, skill
+NOUN|scriba|scrib||1|M|scribe
+NOUN|scriptor|scriptor|consonant|3|M|writer
+NOUN|senatus|senat||4|M|senate
+NOUN|senectus|senectut|consonant|3|F|old age
+NOUN|senex|sen|consonant|3|M|old man
+NOUN|sensus|sens||4|M|feeling, sense; discretion, tact
+NOUN|servitus|servitut|consonant|3|F|servitude, slavery
+NOUN|servus|serv||2|M|slave
+NOUN|sidus|sider|consonant|3|M|constellation, star
+NOUN|signum|sign||2|N|sign, signal, indication, seal
+NOUN|silentium|silenti||2|N|silence
+NOUN|silva|silv||1|F|forest, wood
+NOUN|simulatio|simulation|consonant|3|F|pretense, insincerity
+NOUN|socius|soci||2|M|comrade, ally
+NOUN|sol|sol|consonant|3|M|sun
+NOUN|solitudo|solitudin|consonant|3|F|solitude, loneliness
+NOUN|somnus|somn||2|M|sleep
+NOUN|sopor|sopor|consonant|3|M|deep sleep
+NOUN|sordes|sord|i|3|F|filth; meanness, stinginess
+NOUN|spectaculum|spectacul||2|N|spectacle, show
+NOUN|spiritus|spirit||4|M|breath, breathing
+NOUN|statua|statu||1|F|statue
+NOUN|stella|stell||1|F|star
+NOUN|stilus|stil||2|M|pencil
+NOUN|studium|studi||2|N|eagerness, zeal, pursuit, study
+NOUN|summa|summ||1|F|highest part, sum, whole
+NOUN|supellex|supellectil|consonant|3|F|furniture, apparatus
+NOUN|supplicium|supplici||2|N|punishment
+NOUN|synagoga|synagog||1|F|synagogue
+NOUN|tabella|tabell||1|F|writing tablet
+NOUN|tabellae|tabell||1|F|letter, document
+NOUN|temeritas|temeritat|consonant|3|F|rashness, temerity
+NOUN|temperantia|temperanti||1|F|moderation, temperance, self-control
+NOUN|tempestas|tempestat|consonant|3|F|weather, storm
+NOUN|templum|templ||2|N|sacred area, temple
+NOUN|temptatio|temptation|consonant|3|F|trial, temptation
+NOUN|tempus|tempor|consonant|3|N|time; occasion, opportunity
+NOUN|terra|terr||1|F|earth, ground, land, country
+NOUN|timor|timor|consonant|3|M|fear
+NOUN|titulus|titul||2|M|label, title; placard
+NOUN|toga|tog||1|F|toga
+NOUN|tonsor|tonsor|consonant|3|M|barber
+NOUN|tragoedia|tragoedi||1|F|tragedy
+NOUN|triumphus|triumph||2|M|triumphal procession, triumph
+NOUN|tumultus|tumult||4|M|uprising, disturbance
+NOUN|tumulus|tumul||2|M|mound, grave, tomb
+NOUN|turba|turb||1|F|crowd, throng, multitude
+NOUN|tyrannus|tyrann||2|M|absolute ruler, tyrant
+NOUN|umbra|umbr||1|F|shade
+NOUN|umerus|umer||2|M|shoulder, upper arm
+NOUN|urbs|urb|i|3|F|city
+NOUN|utilitas|utilitat|consonant|3|F|usefulness, advantage
+NOUN|uxor|uxor|consonant|3|F|wife
+NOUN|valetudo|valetudin|consonant|3|F|health
+NOUN|venia|veni||1|F|kindness, favor, pardon
+NOUN|verbum|verb||2|N|word
+NOUN|veritas|veritat|consonant|3|F|truth
+NOUN|versus|vers||4|M|line of verse
+NOUN|via|vi||1|F|road, street, way
+NOUN|victoria|victori||1|F|victory
+NOUN|vicus|vic||2|M|village
+NOUN|vigor|vigor|consonant|3|M|vigor, liveliness
+NOUN|villa|vill||1|F|villa, country house
+NOUN|vinculum|vincul||2|N|bond, fetter
+NOUN|vinum|vin||2|N|wine
+NOUN|vir|vir||2|M|man
+NOUN|vires|vir|i|3|F|strength
+NOUN|virgo|virgin|consonant|3|F|maiden, virgin
+NOUN|virtus|virtut|consonant|3|F|manliness, courage; excellence, character, worth, virtue, merit
+NOUN|vis|vir|i|3|F|force, power, violence
+NOUN|vita|vit||1|F|life; mode of life
+NOUN|vitium|viti||2|N|fault, crime, vice
+NOUN|voluntas|voluntat|consonant|3|F|will, wish
+NOUN|voluptas|voluptat|consonant|3|F|pleasure
+NOUN|vox|voc|consonant|3|F|voice, word
+NOUN|vulgus|vulg||2|M|the common people, mob, rabble
+NOUN|vulnus|vulner|consonant|3|N|wound
