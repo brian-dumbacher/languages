@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>German Grammar Tables</title>
+<title>German Grammar Review</title>
 <style>
 body {
 	background-color: #ffffff;
@@ -88,7 +88,10 @@ img {
 .table-verbs td {
 	border: 1px solid #000000;
 	box-sizing: border-box;
-	padding: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
 	vertical-align: top;
 }
 
@@ -105,8 +108,8 @@ img {
 	border: 1px solid #000000;
 	box-sizing: border-box;
 	padding-bottom: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	padding-top: 10px;
 	vertical-align: middle;
 }
@@ -114,8 +117,15 @@ img {
 .table-general td {
 	border: 1px solid #000000;
 	box-sizing: border-box;
-	padding: 5px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
 	vertical-align: top;
+}
+
+.link-flexionstabelle {
+	color: #0000ff;
 }
 </style>
 
@@ -123,8 +133,6 @@ img {
 Unicode Umlaut codes
 
 A -- &#xC4;    a -- &#xE4;
-E -- &#xCB;    e -- &#xEB;
-I -- &#xCF;    i -- &#xEF;
 O -- &#xD6;    o -- &#xF6;
 U -- &#xDC;    u -- &#xFC;
 
@@ -181,7 +189,7 @@ German has two grammatical numbers:
 <p class="p-heading">IV. Nouns</p>
 <br>
 <p class="p-text">
-The table below shows how nouns inflect, or decline, according to case, gender, and number. There are three declension patterns for masculine nouns and two declension patterns for neuter nouns.
+Table 1 shows how nouns inflect, or decline, according to case, gender, and number. There are three declension patterns for masculine nouns and two declension patterns for neuter nouns.
 </p>
 
 <center>
@@ -192,32 +200,132 @@ The table below shows how nouns inflect, or decline, according to case, gender, 
 
 <hr>
 
-<p class="p-heading">V. Articles and Adjective Endings</p>
+<p class="p-heading">V. Pronouns</p>
 <br>
 <p class="p-text">
-The tables below show how articles (definite and indefinite) and adjective endings inflect according to case, gender, and number.
+Tables 2 and 3 list the personal and possessive pronouns, respectively.
 </p>
 
 <center>
-<label class="label-img" for="imgDefinite">Table 2. Definite Articles and Adjecitve Endings</label>
+<label class="label-table" for="tablePronounsPersonal">Table 2. Personal Pronouns</label>
+<table class="table-general" id="tablePronounsPersonal">
+	<tr>
+		<th rowspan=2 style="width: 100px;">Person</th>
+		<th rowspan=2 style="width: 100px;">Case</th>
+		<th colspan=2 style="width: 300px;">Number</th>
+	</tr>
+	<tr>
+		<th style="width: 150px;">Singular</th>
+		<th style="width: 150px;">Plural</th>
+	</tr>
+	<tr>
+		<td rowspan=3 style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">1st</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Nom</td>
+		<td style="vertical-align: middle;">ich</td>
+		<td style="vertical-align: middle;">wir</td>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Acc</td>
+		<td style="vertical-align: middle;">mich</td>
+		<td style="vertical-align: middle;">uns</td>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Dat</td>
+		<td style="vertical-align: middle;">mir</td>
+		<td style="vertical-align: middle;">uns</td>
+	</tr>
+	<tr>
+		<td rowspan=3 style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">2nd</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Nom</td>
+		<td style="vertical-align: middle;">du</td>
+		<td style="vertical-align: middle;">ihr</td>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Acc</td>
+		<td style="vertical-align: middle;">dich</td>
+		<td style="vertical-align: middle;">euch</td>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Dat</td>
+		<td style="vertical-align: middle;">dir</td>
+		<td style="vertical-align: middle;">euch</td>
+	</tr>
+	<tr>
+		<td rowspan=3 style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">3rd</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Nom</td>
+		<td style="vertical-align: middle;">er/sie/es</td>
+		<td style="vertical-align: middle;">sie</td>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Acc</td>
+		<td style="vertical-align: middle;">ihn/sie/es</td>
+		<td style="vertical-align: middle;">sie</td>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Dat</td>
+		<td style="vertical-align: middle;">ihm/ihr/ihm</td>
+		<td style="vertical-align: middle;">ihnen</td>
+	</tr>
+</table>
+
+<label class="label-table" for="tablePronounsPersonal">Table 3. Possessive Pronouns</label>
+<table class="table-general" id="tablePronounsPersonal">
+	<tr>
+		<th rowspan=2 style="width: 100px;">Person</th>
+		<th colspan=2 style="width: 300px;">Number</th>
+	</tr>
+	<tr>
+		<th style="width: 150px;">Singular</th>
+		<th style="width: 150px;">Plural</th>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">1st</td>
+		<td style="vertical-align: middle;">mein</td>
+		<td style="vertical-align: middle;">unser</td>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">2nd</td>
+		<td style="vertical-align: middle;">dein</td>
+		<td style="vertical-align: middle;">euer</td>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">3rd</td>
+		<td style="vertical-align: middle;">sein/ihr/sein</td>
+		<td style="vertical-align: middle;">ihr</td>
+	</tr>
+</table>
+</center>
+
+<br>
+
+<hr>
+
+<p class="p-heading">VI. Articles and Adjective Endings</p>
+<br>
+<p class="p-text">
+Tables 4, 5, and 6 show how articles and adjective endings inflect according to case, gender, and number. Table 4 covers definite articles and weak adjective endings. Table 5 covers indefinite articles, including personal pronouns, and mixed adjective endings. Table 6 covers the situation of no article and strong adjective endings. Note the correspondence between the definite articles in Table 4 and the strong adjective endings in Table 6.
+</p>
+
+<center>
+<label class="label-img" for="imgDefinite">Table 4. Definite Articles and Weak Adjecitve Endings</label>
 <br>
 <img width="720" height="220" src="german_articles_definite.png" id="imgDefinite">
 <br>
-<label class="label-img" for="imgIndefinite">Table 3. Indefinite Articles and Adjecitve Endings</label>
+<label class="label-img" for="imgIndefinite">Table 5. Indefinite Articles and Mixed Adjecitve Endings</label>
 <br>
 <img width="720" height="220" src="german_articles_indefinite.png" id="imgIndefinite">
 <br>
-<label class="label-img" for="imgNo">Table 4. No Articles and Adjecitve Endings</label>
+<label class="label-img" for="imgNone">Table 6. Strong Adjecitve Endings</label>
 <br>
-<img width="720" height="220" src="german_articles_none.png" id="imgNo">
+<img width="720" height="220" src="german_articles_none.png" id="imgNone">
 </center>
 
 <hr>
 
-<p class="p-heading">VI. Verbs</p>
+<p class="p-heading">VII. Verbs</p>
 <br>
 <p class="p-text">
-Table 5 illustrates my categorization of German verbs according to their conjugation. The two main defining characteristics in this scheme are:
+Table 7 illustrates my categorization of German verbs according to their conjugation pattern. The two main defining characteristics in this scheme are:
 </p>
 <br>
 <ol class="p-text">
@@ -226,11 +334,11 @@ Table 5 illustrates my categorization of German verbs according to their conjuga
 </ol>
 <br>
 <p class="p-text">
-Note that this categorization may differ slightly from others you have come across. I have created separate categories for the modal verbs as well as for four "special" verbs that do not quite satisfy the definitions of the other categories. The following sections provide details and example verbs.
+Note that this categorization may differ slightly from others you have encountered. I have created separate categories for the modal verbs as well as for four "special" verbs that do not quite satisfy the definitions of the other categories. The following are details and example verbs for each category.
 </p>
 
 <center>
-<label class="label-table" for="tableVerbCategorization">Table 5. Categorization of German Verbs</label>
+<label class="label-table" for="tableVerbCategorization">Table 7. Categorization of German Verbs</label>
 <table class="table-general" id="tableVerbCategorization">
 	<tr>
 		<th rowspan=2 style="width: 300px;">Regular/Weak</th>
@@ -244,20 +352,20 @@ Note that this categorization may differ slightly from others you have come acro
 	</tr>
 	<tr>
 		<td style="width: 300px;">Past participle ends in &ndash;t<br>Stem vowel does NOT change</td>
-		<td style="width: 250px;">Past participle ends in &ndash;t<br>Stem vowel changes (to "a")</td>
-		<td style="width: 250px;">Past participle ends in &ndash;en<br>Stem vowel changes</td>
-		<td style="width: 125px;">d&#xFC;rfen<br>k&#xF6;nnen<br>m&#xF6;gen<br>m&#xFC;ssen<br>sollen<br>wollen</td>
-		<td style="width: 125px;">haben<br>sein<br>tun<br>wissen</td>
+		<td style="width: 280px;">Past participle ends in &ndash;t<br>Stem vowel changes (to "a")</td>
+		<td style="width: 280px;">Past participle ends in &ndash;en<br>Stem vowel changes</td>
+		<td style="width: 140px;">d&#xFC;rfen<br>k&#xF6;nnen<br>m&#xF6;gen<br>m&#xFC;ssen<br>sollen<br>wollen</td>
+		<td style="width: 140px;">haben<br>sein<br>tun<br>wissen</td>
 	</tr>
 </table>
 </center>
 
 <p class="p-text">
-Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vowel that does NOT change. There are many weak German verbs. Table 6 lists only a handful of examples.
+Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vowel that does NOT change. There are numerous weak German verbs. Table 8 lists only a handful of examples.
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsWeak">Table 6. Regular/Weak Verbs</label>
+<label class="label-table" for="tableVerbsWeak">Table 8. Regular/Weak Verbs</label>
 <table class="table-verbs" id="tableVerbsWeak">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
@@ -265,6 +373,7 @@ Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vow
 		<th style="width: 150px;">Sing. Past</th>
 		<th rowspan=2 style="width: 150px;">Past<br>Participle</th>
 		<th rowspan=2 style="width: 150px;">Definition</th>
+		<th rowspan=2 style="width: 150px;">Conjugation<br>Table</th>
 	</tr>
 	<tr>
 		<th style="width: 150px;">1st Person</th>
@@ -280,6 +389,7 @@ Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vow
 		<td>arbeitete</td>
 		<td>gearbeitet</td>
 		<td>to work</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>l&#xE4;cheln</td>
@@ -289,6 +399,7 @@ Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vow
 		<td>l&#xE4;chelte</td>
 		<td>gel&#xE4;chelt</td>
 		<td>to smile</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>machen</td>
@@ -298,6 +409,7 @@ Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vow
 		<td>machte</td>
 		<td>gemacht</td>
 		<td>to make</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_machen.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>sortieren</td>
@@ -307,22 +419,17 @@ Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vow
 		<td>sortierte</td>
 		<td>sortiert</td>
 		<td>to gather</td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_machen.png"></td>
+		<td></td>
 	</tr>
 </table>
 </center>
 
 <p class="p-text">
-As with weak verbs, irregular mixed verbs have a past participle ending in &ndash;t. However, their stem vowel DOES change in the past and past participle forms. In my verb categorization, the stem vowel of a mixed verb always changes to "a". Table 7 lists the mixed verbs. The verbs "haben" and "wissen", which are typically included in the weak catergory, can be found in the irregular special category.
+As with weak verbs, irregular mixed verbs have a past participle ending in &ndash;t. However, their stem vowel DOES change in the past and past participle forms. In my verb categorization, the stem vowel of a mixed verb always changes to "a". Table 9 lists the mixed verbs. The verbs "haben" and "wissen", which are typically included in the weak catergory, are categorized as irregular special verbs.
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsMixed">Table 7. Irregular Verbs: Mixed</label>
+<label class="label-table" for="tableVerbsMixed">Table 9. Irregular Verbs: Mixed</label>
 <table class="table-verbs" id="tableVerbsMixed">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
@@ -330,6 +437,7 @@ As with weak verbs, irregular mixed verbs have a past participle ending in &ndas
 		<th style="width: 150px;">Sing. Past</th>
 		<th rowspan=2 style="width: 150px;">Past<br>Participle</th>
 		<th rowspan=2 style="width: 150px;">Definition</th>
+		<th rowspan=2 style="width: 150px;">Conjugation<br>Table</th>
 	</tr>
 	<tr>
 		<th style="width: 150px;">1st Person</th>
@@ -345,6 +453,7 @@ As with weak verbs, irregular mixed verbs have a past participle ending in &ndas
 		<td>brannte</td>
 		<td>gebrannt</td>
 		<td>to burn</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>bringen</td>
@@ -354,6 +463,7 @@ As with weak verbs, irregular mixed verbs have a past participle ending in &ndas
 		<td>brachte</td>
 		<td>gebracht</td>
 		<td>to bring</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>denken</td>
@@ -363,6 +473,7 @@ As with weak verbs, irregular mixed verbs have a past participle ending in &ndas
 		<td>dachte</td>
 		<td>gedacht</td>
 		<td>to think</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>kennen</td>
@@ -372,6 +483,7 @@ As with weak verbs, irregular mixed verbs have a past participle ending in &ndas
 		<td>kannte</td>
 		<td>gekannt</td>
 		<td>to know</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>nennen</td>
@@ -381,6 +493,7 @@ As with weak verbs, irregular mixed verbs have a past participle ending in &ndas
 		<td>nannte</td>
 		<td>genannt</td>
 		<td>to name</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>rennen</td>
@@ -390,6 +503,7 @@ As with weak verbs, irregular mixed verbs have a past participle ending in &ndas
 		<td>rannte</td>
 		<td>gerannt</td>
 		<td>to run</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>senden</td>
@@ -399,6 +513,7 @@ As with weak verbs, irregular mixed verbs have a past participle ending in &ndas
 		<td>sandte</td>
 		<td>gesandt</td>
 		<td>to transmit</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>wenden</td>
@@ -408,16 +523,17 @@ As with weak verbs, irregular mixed verbs have a past participle ending in &ndas
 		<td>wandte</td>
 		<td>gewandt</td>
 		<td>to turn</td>
+		<td></td>
 	</tr>
 </table>
 </center>
 
 <p class="p-text">
-Irregular strong verbs have a past particple ending in &ndash;en and a stem vowel that changes. Strong verbs can be subcategorized according to one of three patterns of stem vowel (SV) change. Tables 8, 9, and 10 list the most common strong verbs of these three subcategories.
+Irregular strong verbs have a past particple ending in &ndash;en and a stem vowel that DOES change. Strong verbs can be subcategorized according to one of three patterns of stem vowel (SV) change. Tables 10, 11, and 12 list the most common strong verbs belonging to these three subcategories. Click on the "Conjugation Table" link to see the verb's full conjugation.
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsStrong1">Table 8. Irregular Verbs: Strong</label>
+<label class="label-table" for="tableVerbsStrong1">Table 10. Irregular Verbs: Strong</label>
 <br>
 <label class="sublabel-table" for="tableVerbsStrong1">(Subcategory 1: Past Participle SV = Infinitive SV)</label>
 <table class="table-verbs" id="tableVerbsStrong2">
@@ -427,6 +543,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<th style="width: 150px;">Sing. Past</th>
 		<th rowspan=2 style="width: 150px;">Past<br>Participle</th>
 		<th rowspan=2 style="width: 150px;">Definition</th>
+		<th rowspan=2 style="width: 150px;">Conjugation<br>Table</th>
 	</tr>
 	<tr>
 		<th style="width: 150px;">1st Person</th>
@@ -442,6 +559,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>backte</td>
 		<td>gebacken</td>
 		<td>to bake</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>blasen</td>
@@ -451,6 +569,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>blies</td>
 		<td>geblasen</td>
 		<td>to blow</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>braten</td>
@@ -460,6 +579,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>briet</td>
 		<td>gebraten</td>
 		<td>to roast</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>empfangen</td>
@@ -469,6 +589,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>empfing</td>
 		<td>empfangen</td>
 		<td>to receive</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>essen</td>
@@ -478,6 +599,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>a&#xDF;</td>
 		<td>gegessen</td>
 		<td>to eat</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>fahren</td>
@@ -487,6 +609,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>fuhr</td>
 		<td>gefahren</td>
 		<td>to drive</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>fallen</td>
@@ -496,6 +619,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>fiel</td>
 		<td>gefallen</td>
 		<td>to fall</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>fangen</td>
@@ -505,6 +629,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>fing</td>
 		<td>gefangen</td>
 		<td>to catch</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>fressen</td>
@@ -514,6 +639,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>fra&#xDF;</td>
 		<td>gefressen</td>
 		<td>to eat (animal)</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>geben</td>
@@ -523,6 +649,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>gab</td>
 		<td>gegeben</td>
 		<td>to give</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_geben.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>geraten</td>
@@ -532,6 +659,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>geriet</td>
 		<td>geraten</td>
 		<td>to panic</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>geschehen</td>
@@ -541,6 +669,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>geschah</td>
 		<td>geschehen</td>
 		<td>to happen</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>graben</td>
@@ -550,6 +679,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>grub</td>
 		<td>gegraben</td>
 		<td>to dig</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>halten</td>
@@ -559,6 +689,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>hielt</td>
 		<td>gehalten</td>
 		<td>to hold</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>hauen</td>
@@ -568,6 +699,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>hieb</td>
 		<td>gehauen</td>
 		<td>to chop</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>hei&#xDF;en</td>
@@ -577,6 +709,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>hie&#xDF;</td>
 		<td>gehei&#xDF;en</td>
 		<td>to be called</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>kommen</td>
@@ -586,6 +719,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>kam</td>
 		<td>gekommen</td>
 		<td>to come</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>laden</td>
@@ -595,6 +729,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>lud</td>
 		<td>geladen</td>
 		<td>to load</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_laden.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>lassen</td>
@@ -604,6 +739,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>lie&#xDF;</td>
 		<td>gelassen</td>
 		<td>to let</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>laufen</td>
@@ -613,6 +749,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>lief</td>
 		<td>gelaufen</td>
 		<td>to run</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_laufen.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>lesen</td>
@@ -622,6 +759,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>las</td>
 		<td>gelesen</td>
 		<td>to read</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>mahlen</td>
@@ -631,6 +769,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>mahlte</td>
 		<td>gemahlen</td>
 		<td>to grind</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>messen</td>
@@ -640,6 +779,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>ma&#xDF;</td>
 		<td>gemessen</td>
 		<td>to measure</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>raten</td>
@@ -649,6 +789,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>riet</td>
 		<td>geraten</td>
 		<td>to guess</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>rufen</td>
@@ -658,6 +799,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>rief</td>
 		<td>gerufen</td>
 		<td>to call</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_rufen.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>salzen</td>
@@ -667,6 +809,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>salzte</td>
 		<td>gesalzen</td>
 		<td>to salt</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schaffen</td>
@@ -676,6 +819,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schuf</td>
 		<td>geschaffen</td>
 		<td>to create</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schlafen</td>
@@ -685,6 +829,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schlief</td>
 		<td>geschlafen</td>
 		<td>to sleep</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schlagen</td>
@@ -694,6 +839,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schlug</td>
 		<td>geschlagen</td>
 		<td>to strike</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>sehen</td>
@@ -703,6 +849,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>sah</td>
 		<td>gesehen</td>
 		<td>to see</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>sto&#xDF;en</td>
@@ -712,6 +859,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>stie&#xDF;</td>
 		<td>gesto&#xDF;en</td>
 		<td>to jab</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>tragen</td>
@@ -721,6 +869,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>trug</td>
 		<td>getragen</td>
 		<td>to carry</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>treten</td>
@@ -730,6 +879,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>trat</td>
 		<td>getreten</td>
 		<td>to step</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>vergessen</td>
@@ -739,6 +889,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>verga&#xDF;</td>
 		<td>vergessen</td>
 		<td>to forget</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>wachsen</td>
@@ -748,6 +899,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>wuchs</td>
 		<td>gewachsen</td>
 		<td>to grow</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>waschen</td>
@@ -757,34 +909,11 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>wusch</td>
 		<td>gewaschen</td>
 		<td>to wash</td>
+		<td></td>
 	</tr>
 </table>
 
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_geben.png"></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_laden.png"></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_laufen.png"></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_rufen.png"></td>
-	</tr>
-</table>
-
-<label class="label-table" for="tableVerbsStrong2">Table 9. Irregular Verbs: Strong</label>
+<label class="label-table" for="tableVerbsStrong2">Table 11. Irregular Verbs: Strong</label>
 <br>
 <label class="sublabel-table" for="tableVerbsStrong2">(Subcategory 2: Past Participle SV &ne; Infinitive SV and Past Participle SV = Past SV)</label>
 <table class="table-verbs" id="tableVerbsStrong2">
@@ -794,6 +923,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<th style="width: 150px;">Sing. Past</th>
 		<th rowspan=2 style="width: 150px;">Past<br>Participle</th>
 		<th rowspan=2 style="width: 150px;">Definition</th>
+		<th rowspan=2 style="width: 150px;">Conjugation<br>Table</th>
 	</tr>
 	<tr>
 		<th style="width: 150px;">1st Person</th>
@@ -809,6 +939,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>biss</td>
 		<td>gebissen</td>
 		<td>to bite</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>bewegen</td>
@@ -818,6 +949,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>bewog</td>
 		<td>bewogen</td>
 		<td>to move</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>biegen</td>
@@ -827,6 +959,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>bog</td>
 		<td>gebogen</td>
 		<td>to bend</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>bieten</td>
@@ -836,6 +969,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>bot</td>
 		<td>geboten</td>
 		<td>to offer</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>bleiben</td>
@@ -845,6 +979,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>blieb</td>
 		<td>geblieben</td>
 		<td>to stay</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_bleiben.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>erl&#xF6;schen</td>
@@ -854,6 +989,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>erlosch</td>
 		<td>erloschen</td>
 		<td>to expire</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>fechten</td>
@@ -863,6 +999,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>focht</td>
 		<td>gefochten</td>
 		<td>to fence</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>flechten</td>
@@ -872,6 +1009,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>flocht</td>
 		<td>geflochten</td>
 		<td>to braid</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>fliegen</td>
@@ -881,6 +1019,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>flog</td>
 		<td>geflogen</td>
 		<td>to fly</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_fliegen.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>fliehen</td>
@@ -890,6 +1029,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>floh</td>
 		<td>geflohen</td>
 		<td>to flee</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>flie&#xDF;en</td>
@@ -899,6 +1039,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>floss</td>
 		<td>geflossen</td>
 		<td>to flow</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>frieren</td>
@@ -908,6 +1049,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>fror</td>
 		<td>gefroren</td>
 		<td>to freeze</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>gedeihen</td>
@@ -917,6 +1059,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>gedieh</td>
 		<td>gediehen</td>
 		<td>to thrive</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>genie&#xDF;en</td>
@@ -926,6 +1069,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>genoss</td>
 		<td>genossen</td>
 		<td>to enjoy</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>gie&#xDF;en</td>
@@ -935,6 +1079,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>goss</td>
 		<td>gegossen</td>
 		<td>to pour</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>gleichen</td>
@@ -944,6 +1089,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>glich</td>
 		<td>geglichen</td>
 		<td>to resemble</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>gleiten</td>
@@ -953,6 +1099,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>glitt</td>
 		<td>geglitten</td>
 		<td>to slip</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>greifen</td>
@@ -962,6 +1109,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>griff</td>
 		<td>gegriffen</td>
 		<td>to grasp</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>heben</td>
@@ -971,6 +1119,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>hob</td>
 		<td>gehoben</td>
 		<td>to lift</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>kneifen</td>
@@ -980,6 +1129,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>kniff</td>
 		<td>gekniffen</td>
 		<td>to pinch</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>kriechen</td>
@@ -989,6 +1139,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>kroch</td>
 		<td>gekrochen</td>
 		<td>to crawl</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>leiden</td>
@@ -998,6 +1149,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>litt</td>
 		<td>gelitten</td>
 		<td>to suffer</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>leihen</td>
@@ -1007,6 +1159,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>lieh</td>
 		<td>geliehen</td>
 		<td>to borrow</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>l&#xFC;gen</td>
@@ -1016,6 +1169,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>log</td>
 		<td>gelogen</td>
 		<td>to lie</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>meiden</td>
@@ -1025,6 +1179,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>mied</td>
 		<td>gemieden</td>
 		<td>to shun</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>melken</td>
@@ -1034,6 +1189,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>molk</td>
 		<td>gemolken</td>
 		<td>to milk</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>pfeifen</td>
@@ -1043,6 +1199,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>pfiff</td>
 		<td>gepfiffen</td>
 		<td>to whistle</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>preisen</td>
@@ -1052,6 +1209,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>pries</td>
 		<td>gepriesen</td>
 		<td>to laud</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>reiben</td>
@@ -1061,6 +1219,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>rieb</td>
 		<td>gerieben</td>
 		<td>to rub</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>rei&#xDF;en</td>
@@ -1070,6 +1229,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>riss</td>
 		<td>gerissen</td>
 		<td>to rip</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>reiten</td>
@@ -1079,6 +1239,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>ritt</td>
 		<td>geritten</td>
 		<td>to ride</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>riechen</td>
@@ -1088,6 +1249,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>roch</td>
 		<td>gerochen</td>
 		<td>to smell</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>saufen</td>
@@ -1097,6 +1259,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>soff</td>
 		<td>gesoffen</td>
 		<td>to guzzle</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>saugen</td>
@@ -1106,6 +1269,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>sog</td>
 		<td>gesogen</td>
 		<td>to suck</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>scheiden</td>
@@ -1115,6 +1279,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schied</td>
 		<td>geschieden</td>
 		<td>to divide</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>scheinen</td>
@@ -1124,6 +1289,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schien</td>
 		<td>geschienen</td>
 		<td>to seem</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schei&#xDF;en</td>
@@ -1133,6 +1299,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schiss</td>
 		<td>geschissen</td>
 		<td>to shit</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>scheren</td>
@@ -1142,6 +1309,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schor</td>
 		<td>geschoren</td>
 		<td>to clip</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schieben</td>
@@ -1151,6 +1319,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schob</td>
 		<td>geschoben</td>
 		<td>to push</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schie&#xDF;en</td>
@@ -1160,6 +1329,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schoss</td>
 		<td>geschossen</td>
 		<td>to shoot</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schleichen</td>
@@ -1169,6 +1339,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schlich</td>
 		<td>geschlichen</td>
 		<td>to skulk</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schleifen</td>
@@ -1178,6 +1349,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schliff</td>
 		<td>geschliffen</td>
 		<td>to burnish</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schlie&#xDF;en</td>
@@ -1187,6 +1359,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schloss</td>
 		<td>geschlossen</td>
 		<td>to close</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schmei&#xDF;en</td>
@@ -1196,6 +1369,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schmiss</td>
 		<td>geschmissen</td>
 		<td>to fling</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schmelzen</td>
@@ -1205,6 +1379,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schmolz</td>
 		<td>geschmolzen</td>
 		<td>to melt</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schneiden</td>
@@ -1214,6 +1389,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schnitt</td>
 		<td>geschnitten</td>
 		<td>to cut</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_schneiden.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>schreiben</td>
@@ -1223,6 +1399,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schrieb</td>
 		<td>geschrieben</td>
 		<td>to write</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schreien</td>
@@ -1232,6 +1409,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schrie</td>
 		<td>geschrien</td>
 		<td>to shout</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schweigen</td>
@@ -1241,6 +1419,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schwieg</td>
 		<td>geschwiegen</td>
 		<td>to be silent</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schw&#xF6;ren</td>
@@ -1250,6 +1429,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schwor</td>
 		<td>geschworen</td>
 		<td>to swear</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>speien</td>
@@ -1259,6 +1439,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>spie</td>
 		<td>gespien</td>
 		<td>to spit</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>stehen</td>
@@ -1268,6 +1449,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>stand</td>
 		<td>gestanden</td>
 		<td>to stand</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>steigen</td>
@@ -1277,6 +1459,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>stieg</td>
 		<td>gestiegen</td>
 		<td>to climb</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>streichen</td>
@@ -1286,6 +1469,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>strich</td>
 		<td>gestrichen</td>
 		<td>to paint</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>streiten</td>
@@ -1295,6 +1479,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>stritt</td>
 		<td>gestritten</td>
 		<td>to argue</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>treiben</td>
@@ -1304,6 +1489,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>trieb</td>
 		<td>getrieben</td>
 		<td>to float</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>tr&#xFC;gen</td>
@@ -1313,6 +1499,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>trog</td>
 		<td>getrogen</td>
 		<td>to deceive</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>verlieren</td>
@@ -1322,6 +1509,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>verlor</td>
 		<td>verloren</td>
 		<td>to lose</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>verzeihen</td>
@@ -1331,6 +1519,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>verzieh</td>
 		<td>verziehen</td>
 		<td>to forgive</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>weichen</td>
@@ -1340,6 +1529,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>wich</td>
 		<td>gewichen</td>
 		<td>to budge</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>weisen</td>
@@ -1349,6 +1539,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>wies</td>
 		<td>gewiesen</td>
 		<td>to show</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>wiegen</td>
@@ -1358,6 +1549,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>wog</td>
 		<td>gewogen</td>
 		<td>to weigh</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ziehen</td>
@@ -1367,28 +1559,11 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>zog</td>
 		<td>gezogen</td>
 		<td>to pull</td>
+		<td></td>
 	</tr>
 </table>
 
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_bleiben.png"></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_fliegen.png"></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_schneiden.png"></td>
-	</tr>
-</table>
-
-<label class="label-table" for="tableVerbsStrong3">Table 10. Irregular Verbs: Strong</label>
+<label class="label-table" for="tableVerbsStrong3">Table 12. Irregular Verbs: Strong</label>
 <br>
 <label class="sublabel-table" for="tableVerbsStrong3">(Subcategory 3: Past Participle SV &ne; Infinitive SV and Past Participle SV &ne; Past SV)</label>
 <table class="table-verbs" id="tableVerbsStrong3">
@@ -1398,6 +1573,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<th style="width: 150px;">Sing. Past</th>
 		<th rowspan=2 style="width: 150px;">Past<br>Participle</th>
 		<th rowspan=2 style="width: 150px;">Definition</th>
+		<th rowspan=2 style="width: 150px;">Conjugation<br>Table</th>
 	</tr>
 	<tr>
 		<th style="width: 150px;">1st Person</th>
@@ -1413,6 +1589,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>befahl</td>
 		<td>befohlen</td>
 		<td>to command</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>beginnen</td>
@@ -1422,6 +1599,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>begann</td>
 		<td>begonnen</td>
 		<td>to begin</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>binden</td>
@@ -1431,6 +1609,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>band</td>
 		<td>gebunden</td>
 		<td>to tie</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>bitten</td>
@@ -1440,6 +1619,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>bat</td>
 		<td>gebeten</td>
 		<td>to beseech</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_bitten.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>brechen</td>
@@ -1449,6 +1629,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>brach</td>
 		<td>gebrochen</td>
 		<td>to break</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>dringen</td>
@@ -1458,6 +1639,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>drang</td>
 		<td>gedrungen</td>
 		<td>to insist</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>empfehlen</td>
@@ -1467,6 +1649,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>empfahl</td>
 		<td>empfohlen</td>
 		<td>to recommend</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>erschrecken</td>
@@ -1476,6 +1659,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>erschrak</td>
 		<td>erschrocken</td>
 		<td>to startle</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>finden</td>
@@ -1485,6 +1669,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>fand</td>
 		<td>gefunden</td>
 		<td>to find</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>geb&#xE4;ren</td>
@@ -1494,6 +1679,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>gebar</td>
 		<td>geboren</td>
 		<td>to give birth</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>gehen</td>
@@ -1503,6 +1689,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>ging</td>
 		<td>gegangen</td>
 		<td>to go</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_gehen.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>gelingen</td>
@@ -1512,6 +1699,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>gelang</td>
 		<td>gelungen</td>
 		<td>to succeed</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>gelten</td>
@@ -1521,6 +1709,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>galt</td>
 		<td>gegolten</td>
 		<td>to count</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>gewinnen</td>
@@ -1530,6 +1719,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>gewann</td>
 		<td>gewonnen</td>
 		<td>to win</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>h&#xE4;ngen</td>
@@ -1539,6 +1729,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>hing</td>
 		<td>gehangen</td>
 		<td>to hang</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>helfen</td>
@@ -1548,6 +1739,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>half</td>
 		<td>geholfen</td>
 		<td>to help</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_helfen.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>klingen</td>
@@ -1557,6 +1749,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>klang</td>
 		<td>geklungen</td>
 		<td>to sound</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>liegen</td>
@@ -1566,6 +1759,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>lag</td>
 		<td>gelegen</td>
 		<td>to be located</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>misslingen</td>
@@ -1575,6 +1769,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>misslang</td>
 		<td>misslungen</td>
 		<td>to fail</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>nehmen</td>
@@ -1584,6 +1779,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>nahm</td>
 		<td>genommen</td>
 		<td>to take</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>ringen</td>
@@ -1593,6 +1789,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>rang</td>
 		<td>gerungen</td>
 		<td>to wrestle</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schelten</td>
@@ -1602,6 +1799,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schalt</td>
 		<td>gescholten</td>
 		<td>to scold</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schwimmen</td>
@@ -1611,6 +1809,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schwamm</td>
 		<td>geschwommen</td>
 		<td>to swim</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>schwingen</td>
@@ -1620,6 +1819,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>schwang</td>
 		<td>geschwungen</td>
 		<td>to swing</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>singen</td>
@@ -1629,6 +1829,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>sang</td>
 		<td>gesungen</td>
 		<td>to sing</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_singen.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>sinken</td>
@@ -1638,6 +1839,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>sank</td>
 		<td>gesunken</td>
 		<td>to sink</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>sitzen</td>
@@ -1647,6 +1849,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>sa&#xDF;</td>
 		<td>gesessen</td>
 		<td>to sit</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>spinnen</td>
@@ -1656,6 +1859,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>spann</td>
 		<td>gesponnen</td>
 		<td>to spin</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>sprechen</td>
@@ -1665,6 +1869,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>sprach</td>
 		<td>gesprochen</td>
 		<td>to speak</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>springen</td>
@@ -1674,6 +1879,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>sprang</td>
 		<td>gesprungen</td>
 		<td>to jump</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>stechen</td>
@@ -1683,6 +1889,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>stach</td>
 		<td>gestochen</td>
 		<td>to sting</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>stehlen</td>
@@ -1692,6 +1899,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>stahl</td>
 		<td>gestohlen</td>
 		<td>to steal</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>sterben</td>
@@ -1701,6 +1909,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>starb</td>
 		<td>gestorben</td>
 		<td>to die</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>stinken</td>
@@ -1710,6 +1919,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>stank</td>
 		<td>gestunken</td>
 		<td>to stink</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>treffen</td>
@@ -1719,6 +1929,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>traf</td>
 		<td>getroffen</td>
 		<td>to meet</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>trinken</td>
@@ -1728,6 +1939,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>trank</td>
 		<td>getrunken</td>
 		<td>to drink</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>verderben</td>
@@ -1737,6 +1949,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>verdarb</td>
 		<td>verdorben</td>
 		<td>to spoil</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>verschwinden</td>
@@ -1746,6 +1959,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>verschwand</td>
 		<td>verschwunden</td>
 		<td>to disappear</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>werben</td>
@@ -1755,6 +1969,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>warb</td>
 		<td>geworben</td>
 		<td>to advertise</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>werden</td>
@@ -1764,6 +1979,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>wurde</td>
 		<td>geworden</td>
 		<td>to become</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_werden.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>werfen</td>
@@ -1773,6 +1989,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>warf</td>
 		<td>geworfen</td>
 		<td>to throw</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>winden</td>
@@ -1782,6 +1999,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>wand</td>
 		<td>gewunden</td>
 		<td>to twist</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>zwingen</td>
@@ -1791,46 +2009,17 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 		<td>zwang</td>
 		<td>gezwungen</td>
 		<td>to force</td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_bitten.png"></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_gehen.png"></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_helfen.png"></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_singen.png"></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_werden.png"></td>
+		<td></td>
 	</tr>
 </table>
 </center>
 
 <p class="p-text">
-Table 11 lists the six modal verbs, which are used to express concepts such as ability, necessity, obligation, permission, and want. They are frequently used in combination with other verbs. Their conjugations are highly irregular.
+Table 13 lists the six modal verbs, which are used to express concepts such as ability, necessity, obligation, permission, and want. They are frequently used in combination with other verbs. Their conjugations are highly irregular.
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsModal">Table 11. Irregular Verbs: Modal</label>
+<label class="label-table" for="tableVerbsModal">Table 13. Irregular Verbs: Modal</label>
 <table class="table-verbs" id="tableVerbsModal">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
@@ -1838,6 +2027,7 @@ Table 11 lists the six modal verbs, which are used to express concepts such as a
 		<th style="width: 150px;">Sing. Past</th>
 		<th rowspan=2 style="width: 150px;">Past<br>Participle</th>
 		<th rowspan=2 style="width: 150px;">Definition</th>
+		<th rowspan=2 style="width: 150px;">Conjugation<br>Table</th>
 	</tr>
 	<tr>
 		<th style="width: 150px;">1st Person</th>
@@ -1853,6 +2043,7 @@ Table 11 lists the six modal verbs, which are used to express concepts such as a
 		<td>durfte</td>
 		<td>gedurft</td>
 		<td>to be allowed</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>k&#xF6;nnen</td>
@@ -1862,6 +2053,7 @@ Table 11 lists the six modal verbs, which are used to express concepts such as a
 		<td>konnte</td>
 		<td>gekonnt</td>
 		<td>to be able</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>m&#xF6;gen</td>
@@ -1871,6 +2063,7 @@ Table 11 lists the six modal verbs, which are used to express concepts such as a
 		<td>mochte</td>
 		<td>gemocht</td>
 		<td>to like</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>m&#xFC;ssen</td>
@@ -1880,6 +2073,7 @@ Table 11 lists the six modal verbs, which are used to express concepts such as a
 		<td>musste</td>
 		<td>gemusst</td>
 		<td>to be obliged</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>sollen</td>
@@ -1889,6 +2083,7 @@ Table 11 lists the six modal verbs, which are used to express concepts such as a
 		<td>sollte</td>
 		<td>gesollt</td>
 		<td>to be obligated</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>wollen</td>
@@ -1898,15 +2093,16 @@ Table 11 lists the six modal verbs, which are used to express concepts such as a
 		<td>wollte</td>
 		<td>gewollt</td>
 		<td>to want</td>
+		<td></td>
 	</tr>
 </table>
 </center>
 
 <p class="p-text">
-Lastly, I have created a separate category for four "special" verbs whose conjugations do not quite satisfy the definitions of the other categories. Table 12 lists these special verbs. The following are comments on their irregular conjugations:
+Lastly, I have created a separate category for four "special" verbs whose conjugations do not quite satisfy the definitions of the other categories. Table 14 lists these special verbs. The following are comments on their irregular conjugations:
 </p>
 <ul class="p-text">
-	<li>The verb "haben" resembles a mixed verb, but its stem vowel does not change.</li>
+	<li>The verb "haben" resembles a mixed verb, but its stem vowel does NOT change.</li>
 	<li>The conjugations of the verbs "sein" and "tun" most closely follow the pattern of a strong verb.</li>
 	<li>The past participle of "tun", "getan", does not end in &ndash;en.</li>
 	<li>The verb "wissen" resembles a mixed verb, but it has irregular 1st, 2nd, and 3rd person singular present forms characteristic of modal verbs.</li>
@@ -1914,7 +2110,7 @@ Lastly, I have created a separate category for four "special" verbs whose conjug
 </ul>
 
 <center>
-<label class="label-table" for="tableVerbsSpecial">Table 12. Irregular Verbs: Special</label>
+<label class="label-table" for="tableVerbsSpecial">Table 14. Irregular Verbs: Special</label>
 <table class="table-verbs" id="tableVerbsSpecial">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
@@ -1922,6 +2118,7 @@ Lastly, I have created a separate category for four "special" verbs whose conjug
 		<th style="width: 150px;">Sing. Past</th>
 		<th rowspan=2 style="width: 150px;">Past<br>Participle</th>
 		<th rowspan=2 style="width: 150px;">Definition</th>
+		<th rowspan=2 style="width: 150px;">Conjugation<br>Table</th>
 	</tr>
 	<tr>
 		<th style="width: 150px;">1st Person</th>
@@ -1937,6 +2134,7 @@ Lastly, I have created a separate category for four "special" verbs whose conjug
 		<td>hatte</td>
 		<td>gehabt</td>
 		<td>to have</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_haben.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>sein</td>
@@ -1946,6 +2144,7 @@ Lastly, I have created a separate category for four "special" verbs whose conjug
 		<td>war</td>
 		<td>gewesen</td>
 		<td>to be</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_sein.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>tun</td>
@@ -1955,6 +2154,7 @@ Lastly, I have created a separate category for four "special" verbs whose conjug
 		<td>tat</td>
 		<td>getan</td>
 		<td>to do</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_tun.png" target="_blank">open</a></td>
 	</tr>
 		<tr>
 		<td>wissen</td>
@@ -1964,34 +2164,17 @@ Lastly, I have created a separate category for four "special" verbs whose conjug
 		<td>wusste</td>
 		<td>gewusst</td>
 		<td>to know</td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_haben.png"></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_sein.png"></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><img width="990" height="570" src="german_verb_tun.png"></td>
+		<td></td>
 	</tr>
 </table>
 </center>
 
 <p class="p-text">
-Table 13 summarizes verb tenses and voices in the indicative mood. This example is based on the verb "machen".
+Table 15 summarizes verb tenses and voices in the indicative mood. The example sentences are based on the verb "machen".
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsTenses">Table 13. Verb Tenses and Voices in the Indicative Mood: Example 1</label>
+<label class="label-table" for="tableVerbsTenses">Table 15. Verb Tenses and Voices in the Indicative Mood: Example 1</label>
 <table class="table-general" id="tableVerbsTenses">
 	<tr>
 		<th rowspan=2 style="width: 175px;">Tense</th>
@@ -2002,32 +2185,32 @@ Table 13 summarizes verb tenses and voices in the indicative mood. This example 
 		<th style="width: 450px;">Passive</th>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #ffff00; padding-bottom: 10px; padding-top: 10px;">Present</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Present</td>
 		<td style="vertical-align: middle;">Ich <font style="color: #ff0000;">mache</font> den Haushalt.</td>
 		<td style="vertical-align: middle;">Der Haushalt <font style="color: #ff0000;">wird</font> von mir <font style="color: #ff0000;">gemacht</font>.</td>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #ffff00; padding-bottom: 10px; padding-top: 10px;">Present Perfect</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Present Perfect</td>
 		<td style="vertical-align: middle;">Ich <font style="color: #ff0000;">habe</font> den Haushalt <font style="color: #ff0000;">gemacht</font>.</td>
 		<td style="vertical-align: middle;">Der Haushalt <font style="color: #ff0000;">ist</font> von mir <font style="color: #ff0000;">gemacht worden</font>.</td>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #00ffff; padding-bottom: 10px; padding-top: 10px;">Past</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Past</td>
 		<td style="vertical-align: middle;">Ich <font style="color: #ff0000;">machte</font> den Haushalt.</td>
 		<td style="vertical-align: middle;">Der Haushalt <font style="color: #ff0000;">wurde</font> von mir <font style="color: #ff0000;">gemacht</font>.</td>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #00ffff; padding-bottom: 10px; padding-top: 10px;">Past Perfect</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Past Perfect</td>
 		<td style="vertical-align: middle;">Ich <font style="color: #ff0000;">hatte</font> den Haushalt <font style="color: #ff0000;">gemacht</font>.</td>
 		<td style="vertical-align: middle;">Der Haushalt <font style="color: #ff0000;">war</font> von mir <font style="color: #ff0000;">gemacht worden</font>.</td>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #ff96ff; padding-bottom: 10px; padding-top: 10px;">Future</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Future</td>
 		<td style="vertical-align: middle;">Ich <font style="color: #ff0000;">werde</font> den Haushalt <font style="color: #ff0000;">machen</font>.</td>
 		<td style="vertical-align: middle;">Der Haushalt <font style="color: #ff0000;">wird</font> von mir <font style="color: #ff0000;">gemacht werden</font>.</td>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #ff96ff; padding-bottom: 10px; padding-top: 10px;">Future Perfect</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Future Perfect</td>
 		<td style="vertical-align: middle;">Ich <font style="color: #ff0000;">werde</font> den Haushalt <font style="color: #ff0000;">gemacht haben</font>.</td>
 		<td style="vertical-align: middle;">Der Haushalt <font style="color: #ff0000;">wird</font> von mir <font style="color: #ff0000;">gemacht worden sein</font>.</td>
 	</tr>
@@ -2035,11 +2218,11 @@ Table 13 summarizes verb tenses and voices in the indicative mood. This example 
 </center>
 
 <p class="p-text">
-Table 14 is a similar summary based on the verb "ankommen", which uses the auxiliary verb "sein". There are no passive forms in this example because "ankommen" is intransitive (i.e., does not take a direct object).
+Table 16 is a similar summary based on the verb "ankommen", which uses the auxiliary verb "sein". There are no passive forms in this example because "ankommen" is intransitive (i.e., does not take a direct object).
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsTenses">Table 14. Verb Tenses and Voices in the Indicative Mood: Example 2</label>
+<label class="label-table" for="tableVerbsTenses">Table 16. Verb Tenses and Voices in the Indicative Mood: Example 2</label>
 <table class="table-general" id="tableVerbsTenses">
 	<tr>
 		<th rowspan=2 style="width: 175px;">Tense</th>
@@ -2050,37 +2233,97 @@ Table 14 is a similar summary based on the verb "ankommen", which uses the auxil
 		<th style="width: 450px;">Passive</th>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #ffff00; padding-bottom: 10px; padding-top: 10px;">Present</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Present</td>
 		<td style="vertical-align: middle;">Der Zug <font style="color: #ff0000;">kommt</font> heute <font style="color: #ff0000;">an</font>.</td>
 		<td style="vertical-align: middle;"></td>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #ffff00; padding-bottom: 10px; padding-top: 10px;">Present Perfect</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Present Perfect</td>
 		<td style="vertical-align: middle;">Der Zug <font style="color: #ff0000;">ist</font> gestern <font style="color: #ff0000;">angekommen</font>.</td>
 		<td style="vertical-align: middle;"></td>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #00ffff; padding-bottom: 10px; padding-top: 10px;">Past</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Past</td>
 		<td style="vertical-align: middle;">Der Zug <font style="color: #ff0000;">kam</font> gestern <font style="color: #ff0000;">an</font>.</td>
 		<td style="vertical-align: middle;"></td>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #00ffff; padding-bottom: 10px; padding-top: 10px;">Past Perfect</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Past Perfect</td>
 		<td style="vertical-align: middle;">Der Zug <font style="color: #ff0000;">war</font> vorgestern <font style="color: #ff0000;">angekommen</font>.</td>
 		<td style="vertical-align: middle;"></td>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #ff96ff; padding-bottom: 10px; padding-top: 10px;">Future</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Future</td>
 		<td style="vertical-align: middle;">Der Zug <font style="color: #ff0000;">wird</font> morgen <font style="color: #ff0000;">ankommen</font>.</td>
 		<td style="vertical-align: middle;"></td>
 	</tr>
 	<tr>
-		<td style="font-weight: bold; background-color: #ff96ff; padding-bottom: 10px; padding-top: 10px;">Future Perfect</td>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle;">Future Perfect</td>
 		<td style="vertical-align: middle;">Der Zug <font style="color: #ff0000;">wird</font> &#xFC;bermorgen <font style="color: #ff0000;">angekommen sein</font>.</td>
 		<td style="vertical-align: middle;"></td>
 	</tr>
 </table>
 </center>
+
+<br>
+
+<hr>
+
+<p class="p-heading">VIII. Prepositions</p>
+<br>
+<p class="p-text">
+Table 17 lists the prepositions that always take a certain case.
+</p>
+
+<center>
+<label class="label-table" for="tablePrepositions">Table 17. Prepositions Always Taking a Certain Case</label>
+<table class="table-general" id="tablePrepositions">
+	<tr>
+		<th style="width: 150px;">Acc</th>
+		<th style="width: 150px;">Dat</th>
+		<th style="width: 150px;">Gen</th>
+	</tr>
+	<tr>
+		<td>durch<br>f&#xFC;r<br>gegen<br>ohne<br>um</td>
+		<td>aus<br>au&#xDF;er<br>bei<br>mit<br>nach<br>seit<br>von<br>zu<br>gegen&#xFC;ber</td>
+		<td>anstatt<br>au&#xDF;erhalb<br>innerhalb<br>trotz<br>w&#xE4;hrend<br>wegen</td>
+	</tr>
+</table>
+</center>
+
+<br>
+
+<hr>
+
+<p class="p-heading">IX. Conjunctions</p>
+<br>
+<p class="p-text">
+Table 18 lists common coordinating and subordinating conjunctions. Subordinating conjunctions affect word order, specifically the location of the conjugated verb.
+</p>
+
+<center>
+<label class="label-table" for="tableConjunctions">Table 18. Coordinating and Subordinating Conjunctions</label>
+<table class="table-general" id="tableConjunctions">
+	<tr>
+		<th style="width: 175px;">Coordinating</th>
+		<th style="width: 175px;">Subordinating</th>
+	</tr>
+	<tr>
+		<td>aber<br>denn<br>oder<br>sondern<br>und</td>
+		<td>als<br>bevor<br>bis<br>da<br>damit<br>dass<br>ehe<br>falls<br>indem<br>nachdem<br>ob<br>obwohl<br>seit<br>seitdem<br>sobald<br>sodass<br>solange<br>sooft<br>w&#xE4;hrend<br>wann<br>weil<br>wenn</td>
+	</tr>
+</table>
+</center>
+
+<br>
+
+<hr>
+
+<p class="p-heading">X. Interjections</p>
+<br>
+<p class="p-text">
+Table 19 lists common interjections.
+</p>
 
 <br>
 <br>
