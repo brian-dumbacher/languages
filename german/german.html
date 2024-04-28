@@ -54,47 +54,6 @@ img {
 	margin-top: 0px;
 }
 
-.table-verbs {
-	border-collapse: collapse;
-	color: #000000;
-	font: 16px Verdana;
-	margin-bottom: 15px;
-	margin-top: 10px;
-}
-
-.table-verbs tr:nth-child(even){
-    background-color: #ffffff;
-}
-
-.table-verbs tr:nth-child(odd){
-    background-color: #dddddd;
-}
-
-.table-verbs tr:hover{
-	background-color: #fecc80;
-}
-
-.table-verbs th {
-	background-color: #00ccff;
-	border: 1px solid #000000;
-	box-sizing: border-box;
-	padding-bottom: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 10px;
-	vertical-align: middle;
-}
-
-.table-verbs td {
-	border: 1px solid #000000;
-	box-sizing: border-box;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 5px;
-	vertical-align: top;
-}
-
 .table-general {
 	border-collapse: collapse;
 	color: #000000;
@@ -121,6 +80,47 @@ img {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
+	vertical-align: top;
+}
+
+.table-detailed {
+	border-collapse: collapse;
+	color: #000000;
+	font: 16px Verdana;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.table-detailed tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+.table-detailed tr:nth-child(odd){
+    background-color: #dddddd;
+}
+
+.table-detailed tr:hover{
+	background-color: #fecc80;
+}
+
+.table-detailed th {
+	background-color: #00ccff;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	vertical-align: middle;
+}
+
+.table-detailed td {
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
 	vertical-align: top;
 }
 
@@ -286,7 +286,7 @@ Tables 2 and 3 list the personal and possessive pronouns, respectively.
 	<tr>
 		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">2nd</td>
 		<td style="vertical-align: middle;">dein</td>
-		<td style="vertical-align: middle;">euer</td>
+		<td style="vertical-align: middle;">euer (eur&ndash;)</td>
 	</tr>
 	<tr>
 		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">3rd</td>
@@ -303,7 +303,7 @@ Tables 2 and 3 list the personal and possessive pronouns, respectively.
 <p class="p-heading">VI. Articles and Adjective Endings</p>
 <br>
 <p class="p-text">
-Tables 4, 5, and 6 show how articles and adjective endings inflect according to case, gender, and number. Table 4 covers definite articles and weak adjective endings. Table 5 covers indefinite articles, including personal pronouns, and mixed adjective endings. Table 6 covers the situation of no article and strong adjective endings. Note the correspondence between the definite articles in Table 4 and the strong adjective endings in Table 6.
+Tables 4, 5, and 6 show how articles and adjective endings inflect according to case, gender, and number. Table 4 covers definite articles and weak adjective endings. Table 5 covers indefinite articles, including personal pronouns, and mixed adjective endings. Table 6 covers the situation of no article and strong adjective endings. Observe the correspondence between the definite articles in Table 4 and the strong adjective endings in Table 6.
 </p>
 
 <center>
@@ -330,7 +330,7 @@ Table 7 illustrates my categorization of German verbs according to their conjuga
 <br>
 <ol class="p-text">
 	<li>the past participle ending (&ndash;t or &ndash;en)</li>
-	<li>how the stem vowel (or diphthong) changes in the 3rd person singular past and past participle forms, if at all, in relation to the infinitive</li>
+	<li>how the stem vowel (or diphthong) changes in the 3rd person singular past and past participle forms, if at all, relative to the infinitive</li>
 </ol>
 <br>
 <p class="p-text">
@@ -366,7 +366,7 @@ Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vow
 
 <center>
 <label class="label-table" for="tableVerbsWeak">Table 8. Regular/Weak Verbs</label>
-<table class="table-verbs" id="tableVerbsWeak">
+<table class="table-detailed" id="tableVerbsWeak">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
 		<th colspan=3 style="width: 450px;">Sing. Present</th>
@@ -425,12 +425,12 @@ Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vow
 </center>
 
 <p class="p-text">
-As with weak verbs, irregular mixed verbs have a past participle ending in &ndash;t. However, their stem vowel DOES change in the past and past participle forms. In my verb categorization, the stem vowel of a mixed verb always changes to "a". Table 9 lists the mixed verbs. The verbs "haben" and "wissen", which are typically included in the weak catergory, are categorized as irregular special verbs.
+As with weak verbs, irregular mixed verbs have a past participle ending in &ndash;t. However, their stem vowel DOES change in the past and past participle forms. In my verb categorization, the stem vowel of a mixed verb always changes to "a". Table 9 lists the mixed verbs. The verbs "haben" and "wissen", which are typically included in the weak catergory, are categorized as irregular special verbs and can be found in Table 14.
 </p>
 
 <center>
 <label class="label-table" for="tableVerbsMixed">Table 9. Irregular Verbs: Mixed</label>
-<table class="table-verbs" id="tableVerbsMixed">
+<table class="table-detailed" id="tableVerbsMixed">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
 		<th colspan=3 style="width: 450px;">Sing. Present</th>
@@ -536,7 +536,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 <label class="label-table" for="tableVerbsStrong1">Table 10. Irregular Verbs: Strong</label>
 <br>
 <label class="sublabel-table" for="tableVerbsStrong1">(Subcategory 1: Past Participle SV = Infinitive SV)</label>
-<table class="table-verbs" id="tableVerbsStrong2">
+<table class="table-detailed" id="tableVerbsStrong2">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
 		<th colspan=3 style="width: 450px;">Sing. Present</th>
@@ -916,7 +916,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 <label class="label-table" for="tableVerbsStrong2">Table 11. Irregular Verbs: Strong</label>
 <br>
 <label class="sublabel-table" for="tableVerbsStrong2">(Subcategory 2: Past Participle SV &ne; Infinitive SV and Past Participle SV = Past SV)</label>
-<table class="table-verbs" id="tableVerbsStrong2">
+<table class="table-detailed" id="tableVerbsStrong2">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
 		<th colspan=3 style="width: 450px;">Sing. Present</th>
@@ -1566,7 +1566,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 <label class="label-table" for="tableVerbsStrong3">Table 12. Irregular Verbs: Strong</label>
 <br>
 <label class="sublabel-table" for="tableVerbsStrong3">(Subcategory 3: Past Participle SV &ne; Infinitive SV and Past Participle SV &ne; Past SV)</label>
-<table class="table-verbs" id="tableVerbsStrong3">
+<table class="table-detailed" id="tableVerbsStrong3">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
 		<th colspan=3 style="width: 450px;">Sing. Present</th>
@@ -2020,7 +2020,7 @@ Table 13 lists the six modal verbs, which are used to express concepts such as a
 
 <center>
 <label class="label-table" for="tableVerbsModal">Table 13. Irregular Verbs: Modal</label>
-<table class="table-verbs" id="tableVerbsModal">
+<table class="table-detailed" id="tableVerbsModal">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
 		<th colspan=3 style="width: 450px;">Sing. Present</th>
@@ -2111,7 +2111,7 @@ Lastly, I have created a separate category for four "special" verbs whose conjug
 
 <center>
 <label class="label-table" for="tableVerbsSpecial">Table 14. Irregular Verbs: Special</label>
-<table class="table-verbs" id="tableVerbsSpecial">
+<table class="table-detailed" id="tableVerbsSpecial">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
 		<th colspan=3 style="width: 450px;">Sing. Present</th>
@@ -2272,16 +2272,16 @@ Table 16 is a similar summary based on the verb "ankommen", which uses the auxil
 <p class="p-heading">VIII. Prepositions</p>
 <br>
 <p class="p-text">
-Table 17 lists the prepositions that always take a certain case.
+Table 17 lists the prepositions that always take a specific case.
 </p>
 
 <center>
-<label class="label-table" for="tablePrepositions">Table 17. Prepositions Always Taking a Certain Case</label>
+<label class="label-table" for="tablePrepositions">Table 17. Prepositions Always Taking a Specific Case</label>
 <table class="table-general" id="tablePrepositions">
 	<tr>
-		<th style="width: 150px;">Acc</th>
-		<th style="width: 150px;">Dat</th>
-		<th style="width: 150px;">Gen</th>
+		<th style="width: 175px;">Accusative</th>
+		<th style="width: 175px;">Dative</th>
+		<th style="width: 175px;">Genitive</th>
 	</tr>
 	<tr>
 		<td>durch<br>f&#xFC;r<br>gegen<br>ohne<br>um</td>
@@ -2322,8 +2322,58 @@ Table 18 lists common coordinating and subordinating conjunctions. Subordinating
 <p class="p-heading">X. Interjections</p>
 <br>
 <p class="p-text">
-Table 19 lists common interjections.
+Table 19 lists common interjections and their definitions.
 </p>
+
+<center>
+<label class="label-table" for="tableInterjections">Table 19. Interjections</label>
+<table class="table-detailed" id="tableInterjections">
+	<tr>
+		<th style="width: 175px;">Interjection</th>
+		<th style="width: 175px;">Definition</th>
+	</tr>
+	<tr>
+		<td>ach</td>
+		<td>oh</td>
+	</tr>
+	<tr>
+		<td>ach so</td>
+		<td>alas</td>
+	</tr>
+	<tr>
+		<td>&#xE4;hm</td>
+		<td>um</td>
+	</tr>
+	<tr>
+		<td>aua</td>
+		<td>ow</td>
+	</tr>
+	<tr>
+		<td>h&#xE4;?</td>
+		<td>huh?</td>
+	</tr>
+	<tr>
+		<td>hoppla/ups</td>
+		<td>oops</td>
+	</tr>
+	<tr>
+		<td>huch</td>
+		<td>yikes</td>
+	</tr>
+	<tr>
+		<td>huhu</td>
+		<td>yoo-hoo</td>
+	</tr>
+	<tr>
+		<td>hurra!</td>
+		<td>hooray!</td>
+	</tr>
+	<tr>
+		<td>pfui/igitt</td>
+		<td>yuck/ugh</td>
+	</tr>
+</table>
+</center>
 
 <br>
 <br>
