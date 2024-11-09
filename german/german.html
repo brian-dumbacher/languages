@@ -8,8 +8,13 @@ body {
 	background-color: #ffffff;
 }
 
-img {
+.img-margin-bottom {
 	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+.img-margin-bottom-no {
+	margin-bottom: 0px;
 	margin-top: 0px;
 }
 
@@ -37,7 +42,15 @@ img {
 	margin-top: 15px;
 }
 
-.label-img {
+.label-img-caption {
+	color: #000000;
+	display: inline-block;
+	font: 16px Verdana;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+.label-img-title {
 	color: #000000;
 	display: inline-block;
 	font: 24px Verdana;
@@ -65,8 +78,8 @@ img {
 	border: none;
 	color: #000000;
 	font: 16px Verdana;
-	margin-bottom: 15px;
-	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-top: 5px;
 }
 
 .table-toc td {
@@ -195,35 +208,43 @@ s -- &#xDF;
 	</tr>
 	<tr>
 		<td style="width: 40px; text-align: right;">V.</td>
-		<td style="text-align: left;"><a class="link-toc" href="#section5_pronouns">Pronouns</a></td>
+		<td style="text-align: left;"><a class="link-toc" href="#section5_persons">Persons</a></td>
 	</tr>
 	<tr>
 		<td style="width: 40px; text-align: right;">VI.</td>
-		<td style="text-align: left;"><a class="link-toc" href="#section6_articles_adjective_endings">Articles and Adjective Endings</a></td>
+		<td style="text-align: left;"><a class="link-toc" href="#section6_pronouns">Pronouns</a></td>
 	</tr>
 	<tr>
 		<td style="width: 40px; text-align: right;">VII.</td>
-		<td style="text-align: left;"><a class="link-toc" href="#section7_moods">Moods</a></td>
+		<td style="text-align: left;"><a class="link-toc" href="#section7_articles_adjective_endings">Articles and Adjective Endings</a></td>
 	</tr>
 	<tr>
 		<td style="width: 40px; text-align: right;">VIII.</td>
-		<td style="text-align: left;"><a class="link-toc" href="#section8_voices">Voices</a></td>
+		<td style="text-align: left;"><a class="link-toc" href="#section8_moods">Moods</a></td>
 	</tr>
 	<tr>
 		<td style="width: 40px; text-align: right;">IX.</td>
-		<td style="text-align: left;"><a class="link-toc" href="#section9_verbs">Verbs</a></td>
+		<td style="text-align: left;"><a class="link-toc" href="#section9_tenses">Tenses</a></td>
 	</tr>
 	<tr>
 		<td style="width: 40px; text-align: right;">X.</td>
-		<td style="text-align: left;"><a class="link-toc" href="#section10_prepositions">Prepositions</a></td>
+		<td style="text-align: left;"><a class="link-toc" href="#section10_voices">Voices</a></td>
 	</tr>
 	<tr>
 		<td style="width: 40px; text-align: right;">XI.</td>
-		<td style="text-align: left;"><a class="link-toc" href="#section11_conjunctions">Conjunctions</a></td>
+		<td style="text-align: left;"><a class="link-toc" href="#section11_verbs">Verbs</a></td>
 	</tr>
 	<tr>
 		<td style="width: 40px; text-align: right;">XII.</td>
-		<td style="text-align: left;"><a class="link-toc" href="#section12_interjections">Interjections</a></td>
+		<td style="text-align: left;"><a class="link-toc" href="#section12_prepositions">Prepositions</a></td>
+	</tr>
+	<tr>
+		<td style="width: 40px; text-align: right;">XIII.</td>
+		<td style="text-align: left;"><a class="link-toc" href="#section13_conjunctions">Conjunctions</a></td>
+	</tr>
+	<tr>
+		<td style="width: 40px; text-align: right;">XIV.</td>
+		<td style="text-align: left;"><a class="link-toc" href="#section14_interjections">Interjections</a></td>
 	</tr>
 </table>
 </center>
@@ -237,11 +258,20 @@ German has four grammatical cases:
 </p>
 <br>
 <ol class="p-text">
-	<li><font style="font-weight: bold;">nominative</font> (nom.) for the subject</li>
-	<li><font style="font-weight: bold;">accusative</font> (acc.) for the direct object</li>
-	<li><font style="font-weight: bold;">dative</font> (dat.) for the indirect object</li>
-	<li><font style="font-weight: bold;">genitive</font> (gen.) for the possessor</li>
+	<li><font style="font-weight: bold;">nominative</font> (nom.) for subjects</li>
+	<li><font style="font-weight: bold;">accusative</font> (acc.) for direct objects</li>
+	<li><font style="font-weight: bold;">dative</font> (dat.) for indirect objects</li>
+	<li><font style="font-weight: bold;">genitive</font> (gen.) for expressing possession</li>
 </ol>
+
+<br>
+<br>
+
+<center>
+<img class="img-margin-bottom-no" width="675" height="350" src="german_figure_cases.png" id="imgCases">
+<br>
+<label class="label-img-caption" for="imgCases"><font style="font-weight: bold;">Figure:</font> Sentence illustrating the four grammatical cases.</label>
+</center>
 
 <a id="section2_genders"><hr></a>
 
@@ -256,6 +286,15 @@ German has three grammatical genders:
 	<li><font style="font-weight: bold;">feminine</font> (F)</li>
 	<li><font style="font-weight: bold;">neuter</font> (N)</li>
 </ol>
+
+<br>
+<br>
+
+<center>
+<img class="img-margin-bottom-no" width="600" height="300" src="german_figure_genders.png" id="imgGenders">
+<br>
+<label class="label-img-caption" for="imgGenders"><font style="font-weight: bold;">Figure:</font> Nouns with similar meanings but different genders.</label>
+</center>
 
 <a id="section3_numbers"><hr></a>
 
@@ -279,17 +318,40 @@ Table 1 shows how nouns inflect, or decline, according to case, gender, and numb
 </p>
 
 <center>
-<label class="label-img" for="imgDeclensions">Table 1. Declensions</label>
+<label class="label-img-title" for="imgDeclensions">Table 1. Declensions</label>
 <br>
-<img width="1170" height="280" src="german_declensions.png" id="imgDeclensions">
+<img class="img-margin-bottom" width="1170" height="280" src="german_declensions.png" id="imgDeclensions">
 </center>
 
-<a id="section5_pronouns"><hr></a>
+<a id="section5_persons"><hr></a>
 
-<p class="p-heading">V. Pronouns</p>
+<p class="p-heading">V. Persons</p>
 <br>
 <p class="p-text">
-Tables 2 and 3 list the personal and possessive pronouns, respectively.
+German has three grammatical persons:
+</p>
+<br>
+<ol class="p-text">
+	<li><font style="font-weight: bold;">1st</font> for referring to oneself</li>
+	<li><font style="font-weight: bold;">2nd</font> for referring to the addressee</li>
+	<li><font style="font-weight: bold;">3rd</font> for referring to someone outside the conversation</li>
+</ol>
+
+<br>
+<br>
+
+<center>
+<img class="img-margin-bottom-no" width="750" height="300" src="german_figure_persons.png" id="imgPersons">
+<br>
+<label class="label-img-caption" for="imgPersons"><font style="font-weight: bold;">Figure:</font> Illustration of the three grammatical persons.</label>
+</center>
+
+<a id="section6_pronouns"><hr></a>
+
+<p class="p-heading">VI. Pronouns</p>
+<br>
+<p class="p-text">
+Tables 2, 3, 4, and 5 list the personal, possessive, relative, and interrogative pronouns, respectively.
 </p>
 
 <center>
@@ -354,8 +416,8 @@ Tables 2 and 3 list the personal and possessive pronouns, respectively.
 	</tr>
 </table>
 
-<label class="label-table" for="tablePronounsPersonal">Table 3. Possessive Pronouns</label>
-<table class="table-general" id="tablePronounsPersonal">
+<label class="label-table" for="tablePronounsPossessive">Table 3. Possessive Pronouns</label>
+<table class="table-general" id="tablePronounsPossessive">
 	<tr>
 		<th rowspan=2 style="width: 100px;">Person</th>
 		<th colspan=2 style="width: 300px;">Number</th>
@@ -380,52 +442,103 @@ Tables 2 and 3 list the personal and possessive pronouns, respectively.
 		<td style="vertical-align: middle;">ihr</td>
 	</tr>
 </table>
+
+<label class="label-img-title" for="imgPronounsRelative">Table 4. Relative Pronouns</label>
+<br>
+<img class="img-margin-bottom" width="720" height="245" src="german_pronouns_relative.png" id="imgPronounsRelative">
+<br>
+
+<label class="label-table" for="tablePronounsInterrogative">Table 5. Interrogative Pronouns</label>
+<table class="table-general" id="tablePronounsInterrogative">
+	<tr>
+		<th style="width: 100px;">Case</th>
+		<th style="width: 150px;">Pronoun</th>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Nom</td>
+		<td style="vertical-align: middle;">wer</td>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Acc</td>
+		<td style="vertical-align: middle;">wen</td>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Dat</td>
+		<td style="vertical-align: middle;">wem</td>
+	</tr>
+	<tr>
+		<td style="font-weight: bold; background-color: #dddddd; padding-bottom: 10px; padding-top: 10px; vertical-align: middle; text-align: center;">Gen</td>
+		<td style="vertical-align: middle;">wessen</td>
+	</tr>
+</table>
+
+<br>
+<img class="img-margin-bottom-no" width="460" height="310" src="german_figure_pronouns_interrogative.png" id="imgPronounsInterrogative">
+<br>
+<label class="label-img-caption" for="imgPronounsInterrogative"><font style="font-weight: bold;">Figure:</font> Interrogative pronouns in example sentences.</label>
 </center>
 
 <br>
 
-<a id="section6_articles_adjective_endings"><hr></a>
+<a id="section7_articles_adjective_endings"><hr></a>
 
-<p class="p-heading">VI. Articles and Adjective Endings</p>
+<p class="p-heading">VII. Articles and Adjective Endings</p>
 <br>
 <p class="p-text">
-Tables 4, 5, and 6 show how articles and adjective endings inflect according to case, gender, and number. Table 4 covers definite articles and weak adjective endings. Table 5 covers indefinite articles, including personal pronouns, and mixed adjective endings. Table 6 covers the situation of no article and strong adjective endings. Observe the correspondence between the definite articles in Table 4 and the strong adjective endings in Table 6.
+Tables 6, 7, and 8 show how articles and adjective endings inflect according to case, gender, and number. Table 6 covers definite articles and weak adjective endings. Table 7 covers indefinite articles, including personal pronouns, and mixed adjective endings. Table 8 covers the situation of no article and strong adjective endings. Observe the correspondence between the definite articles in Table 6 and the strong adjective endings in Table 8.
 </p>
 
 <center>
-<label class="label-img" for="imgDefinite">Table 4. Definite Articles and Weak Adjecitve Endings</label>
+<label class="label-img-title" for="imgArticlesDefinite">Table 6. Definite Articles and Weak Adjective Endings</label>
 <br>
-<img width="720" height="220" src="german_articles_definite.png" id="imgDefinite">
+<img class="img-margin-bottom" width="720" height="220" src="german_articles_definite.png" id="imgArticlesDefinite">
 <br>
-<label class="label-img" for="imgIndefinite">Table 5. Indefinite Articles and Mixed Adjecitve Endings</label>
+<label class="label-img-title" for="imgArticlesIndefinite">Table 7. Indefinite Articles and Mixed Adjective Endings</label>
 <br>
-<img width="720" height="220" src="german_articles_indefinite.png" id="imgIndefinite">
+<img class="img-margin-bottom" width="720" height="220" src="german_articles_indefinite.png" id="imgArticlesIndefinite">
 <br>
-<label class="label-img" for="imgNone">Table 6. Strong Adjecitve Endings</label>
+<label class="label-img-title" for="imgArticlesNone">Table 8. Strong Adjective Endings</label>
 <br>
-<img width="720" height="220" src="german_articles_none.png" id="imgNone">
+<img class="img-margin-bottom" width="720" height="220" src="german_articles_none.png" id="imgArticlesNone">
 </center>
 
-<a id="section7_moods"><hr></a>
+<a id="section8_moods"><hr></a>
 
-<p class="p-heading">VII. Moods</p>
+<p class="p-heading">VIII. Moods</p>
 <br>
 <p class="p-text">
-German has three moods:
+German has three grammatical moods:
 </p>
 <br>
 <ol class="p-text">
 	<li><font style="font-weight: bold;">indicative</font> (ind.) for stating facts (as the speaker sees them)</li>
-	<li><font style="font-weight: bold;">subjunctive</font> (sub.) for expressing hypothetical situations or indirect discourse</li>
+	<li><font style="font-weight: bold;">subjunctive</font> (sub.) for expressing hypothetical situations and conveying indirect discourse</li>
 	<li><font style="font-weight: bold;">imperative</font> (imp.) for giving commands</li>
 </ol>
 
-<a id="section8_voices"><hr></a>
+<a id="section9_tenses"><hr></a>
 
-<p class="p-heading">VIII. Voices</p>
+<p class="p-heading">IX. Tenses</p>
 <br>
 <p class="p-text">
-German has two voices:
+German has six grammatical tenses:
+</p>
+<br>
+<ol class="p-text">
+	<li><font style="font-weight: bold;">present</font></li>
+	<li><font style="font-weight: bold;">present perfect</font></li>
+	<li><font style="font-weight: bold;">past</font></li>
+	<li><font style="font-weight: bold;">past perfect</font></li>
+	<li><font style="font-weight: bold;">future</font></li>
+	<li><font style="font-weight: bold;">future perfect</font></li>
+</ol>
+
+<a id="section10_voices"><hr></a>
+
+<p class="p-heading">X. Voices</p>
+<br>
+<p class="p-text">
+German has two grammatical voices:
 </p>
 <br>
 <ol class="p-text">
@@ -433,12 +546,12 @@ German has two voices:
 	<li><font style="font-weight: bold;">passive</font></li>
 </ol>
 
-<a id="section9_verbs"><hr></a>
+<a id="section11_verbs"><hr></a>
 
-<p class="p-heading">IX. Verbs</p>
+<p class="p-heading">XI. Verbs</p>
 <br>
 <p class="p-text">
-Table 7 illustrates my categorization of German verbs according to their conjugation pattern. The two main defining characteristics in this scheme are:
+Table 9 illustrates my categorization of German verbs according to their conjugation pattern. The two defining characteristics in this scheme are:
 </p>
 <br>
 <ol class="p-text">
@@ -451,7 +564,7 @@ Note that this categorization may differ slightly from others you have encounter
 </p>
 
 <center>
-<label class="label-table" for="tableVerbCategorization">Table 7. Categorization of German Verbs</label>
+<label class="label-table" for="tableVerbCategorization">Table 9. Categorization of German Verbs</label>
 <table class="table-general" id="tableVerbCategorization">
 	<tr>
 		<th rowspan=2 style="width: 300px;">Regular/Weak</th>
@@ -474,11 +587,11 @@ Note that this categorization may differ slightly from others you have encounter
 </center>
 
 <p class="p-text">
-Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vowel that does NOT change. There are numerous weak German verbs. Table 8 lists only a handful of examples.
+Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vowel that does NOT change. There are numerous weak German verbs. Table 10 lists only a handful of examples.
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsWeak">Table 8. Regular/Weak Verbs</label>
+<label class="label-table" for="tableVerbsWeak">Table 10. Regular/Weak Verbs</label>
 <table class="table-zebra" id="tableVerbsWeak">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
@@ -503,6 +616,16 @@ Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vow
 		<td>gearbeitet</td>
 		<td>to work</td>
 		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_arbeiten.png" target="_blank">open</a></td>
+	</tr>
+	<tr>
+		<td>dauern</td>
+		<td>dauere</td>
+		<td>dauerst</td>
+		<td>dauert</td>
+		<td>dauerte</td>
+		<td>gedauert</td>
+		<td>to last</td>
+		<td style="text-align: center;"><a class="link-flexionstabelle" href="german_verb_dauern.png" target="_blank">open</a></td>
 	</tr>
 	<tr>
 		<td>l&#xE4;cheln</td>
@@ -538,11 +661,11 @@ Regular, or weak, verbs have a past participle ending in &ndash;t and a stem vow
 </center>
 
 <p class="p-text">
-As with weak verbs, irregular mixed verbs have a past participle ending in &ndash;t. However, their stem vowel DOES change in the past and past participle forms. In my verb categorization, the stem vowel of a mixed verb always changes to "a". Table 9 lists the mixed verbs. The verbs "haben" and "wissen", which are typically included in the weak catergory, are categorized as irregular special verbs and can be found in Table 14.
+As with weak verbs, irregular mixed verbs have a past participle ending in &ndash;t. However, their stem vowel DOES change in the past and past participle forms. In my verb categorization, the stem vowel of a mixed verb always changes to "a". Table 11 lists the mixed verbs. The verbs "haben" and "wissen", which are typically included in the weak catergory, are categorized as irregular special verbs and can be found in Table 16.
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsMixed">Table 9. Irregular Verbs: Mixed</label>
+<label class="label-table" for="tableVerbsMixed">Table 11. Irregular Verbs: Mixed</label>
 <table class="table-zebra" id="tableVerbsMixed">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
@@ -642,11 +765,11 @@ As with weak verbs, irregular mixed verbs have a past participle ending in &ndas
 </center>
 
 <p class="p-text">
-Irregular strong verbs have a past particple ending in &ndash;en and a stem vowel that DOES change. Strong verbs can be subcategorized according to one of three patterns of stem vowel (SV) change. Tables 10, 11, and 12 list the most common strong verbs belonging to these three subcategories.
+Irregular strong verbs have a past particple ending in &ndash;en and a stem vowel that DOES change. Strong verbs can be subcategorized according to one of three patterns of stem vowel (SV) change. Tables 12, 13, and 14 list the most common strong verbs belonging to these three subcategories.
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsStrong1">Table 10. Irregular Verbs: Strong</label>
+<label class="label-table" for="tableVerbsStrong1">Table 12. Irregular Verbs: Strong</label>
 <br>
 <label class="sublabel-table" for="tableVerbsStrong1">Subcategory 1: <font style="background-color: #ffa500;">Past Participle SV = Infinitive SV</font></label>
 <table class="table-zebra" id="tableVerbsStrong2">
@@ -1026,7 +1149,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 	</tr>
 </table>
 
-<label class="label-table" for="tableVerbsStrong2">Table 11. Irregular Verbs: Strong</label>
+<label class="label-table" for="tableVerbsStrong2">Table 13. Irregular Verbs: Strong</label>
 <br>
 <label class="sublabel-table" for="tableVerbsStrong2">Subcategory 2: <font style="background-color: #ffa500;">Past Participle SV &ne; Infinitive SV</font> and <font style="background-color: #ffa500;">Past Participle SV = Past SV</font></label>
 <table class="table-zebra" id="tableVerbsStrong2">
@@ -1676,7 +1799,7 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 	</tr>
 </table>
 
-<label class="label-table" for="tableVerbsStrong3">Table 12. Irregular Verbs: Strong</label>
+<label class="label-table" for="tableVerbsStrong3">Table 14. Irregular Verbs: Strong</label>
 <br>
 <label class="sublabel-table" for="tableVerbsStrong3">Subcategory 3: <font style="background-color: #ffa500;">Past Participle SV &ne; Infinitive SV</font> and <font style="background-color: #ffa500;">Past Participle SV &ne; Past SV</font></label>
 <table class="table-zebra" id="tableVerbsStrong3">
@@ -2138,11 +2261,11 @@ Irregular strong verbs have a past particple ending in &ndash;en and a stem vowe
 </center>
 
 <p class="p-text">
-Table 13 lists the six modal verbs, which are used to express concepts such as ability, necessity, obligation, permission, and want. They are frequently used in combination with other verbs. Their conjugations are highly irregular.
+Table 15 lists the six modal verbs, which are used to express concepts such as ability, necessity, obligation, permission, liking, and want. They are frequently used in combination with other verbs. Their conjugations are highly irregular.
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsModal">Table 13. Irregular Verbs: Modal</label>
+<label class="label-table" for="tableVerbsModal">Table 15. Irregular Verbs: Modal</label>
 <table class="table-zebra" id="tableVerbsModal">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
@@ -2222,7 +2345,7 @@ Table 13 lists the six modal verbs, which are used to express concepts such as a
 </center>
 
 <p class="p-text">
-Lastly, I have created a separate category for four "special" verbs whose conjugations do not quite satisfy the definitions of the other categories. Table 14 lists these special verbs. The following are comments on their irregular conjugations:
+Lastly, I have created a separate category for four "special" verbs whose conjugations do not quite satisfy the definitions of the other categories. Table 16 lists these special verbs. The following are comments on their irregular conjugations:
 </p>
 <ul class="p-text">
 	<li>The verb "haben" resembles a mixed verb, but its stem vowel does NOT change.</li>
@@ -2232,7 +2355,7 @@ Lastly, I have created a separate category for four "special" verbs whose conjug
 </ul>
 
 <center>
-<label class="label-table" for="tableVerbsSpecial">Table 14. Irregular Verbs: Special</label>
+<label class="label-table" for="tableVerbsSpecial">Table 16. Irregular Verbs: Special</label>
 <table class="table-zebra" id="tableVerbsSpecial">
 	<tr>
 		<th rowspan=2 style="width: 150px;">Infinitive</th>
@@ -2292,11 +2415,11 @@ Lastly, I have created a separate category for four "special" verbs whose conjug
 </center>
 
 <p class="p-text">
-Table 15 summarizes verb tenses and voices in the indicative mood. The example sentences are based on the verb "machen".
+Table 17 summarizes verb tenses and voices in the indicative mood. The example sentences are based on the verb "machen".
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsTenses">Table 15. Verb Tenses and Voices in the Indicative Mood: Example 1</label>
+<label class="label-table" for="tableVerbsTenses">Table 17. Verb Tenses and Voices in the Indicative Mood: Example 1</label>
 <table class="table-general" id="tableVerbsTenses">
 	<tr>
 		<th rowspan=2 style="width: 175px;">Tense</th>
@@ -2340,15 +2463,15 @@ Table 15 summarizes verb tenses and voices in the indicative mood. The example s
 </center>
 
 <p class="p-text">
-Table 16 is a similar summary based on the verb "ankommen", which uses the auxiliary verb "sein". There are no passive forms in this example because "ankommen" is intransitive (i.e., does not take a direct object).
+Table 18 is a similar summary based on the verb "ankommen", which uses the auxiliary verb "sein". There are no passive forms in this example because "ankommen" is intransitive (i.e., does not take a direct object).
 </p>
 
 <center>
-<label class="label-table" for="tableVerbsTenses">Table 16. Verb Tenses and Voices in the Indicative Mood: Example 2</label>
+<label class="label-table" for="tableVerbsTenses">Table 18. Verb Tenses and Voices in the Indicative Mood: Example 2</label>
 <table class="table-general" id="tableVerbsTenses">
 	<tr>
 		<th rowspan=2 style="width: 175px;">Tense</th>
-		<th colspan=2>Voice</th>
+		<th colspan=2 style="width: 900px;">Voice</th>
 	</tr>
 	<tr>
 		<th style="width: 450px;">Active</th>
@@ -2389,42 +2512,54 @@ Table 16 is a similar summary based on the verb "ankommen", which uses the auxil
 
 <br>
 
-<a id="section10_prepositions"><hr></a>
+<a id="section12_prepositions"><hr></a>
 
-<p class="p-heading">X. Prepositions</p>
+<p class="p-heading">XII. Prepositions</p>
 <br>
 <p class="p-text">
-Table 17 lists common prepositions that always take a specific case.
+Prepositions can be classified in terms of the case of their object. "One-way" prepositions always take their object in a specific case (accusative, dative, or genitive). "Two-way" prepositions, on the other hand, take their object in either the accusative or dative case depending on the movement described. If the preposition describes movement from one place to another, the accusative case is used. If the preposition describes movement constrained to a single place or no movement at all, the dative case is used. Table 19 lists common one-way prepositions and the nine two-way prepositions.
 </p>
 
 <center>
-<label class="label-table" for="tablePrepositions">Table 17. Prepositions Always Taking a Specific Case</label>
+<label class="label-table" for="tablePrepositions">Table 19. Prepositions</label>
 <table class="table-general" id="tablePrepositions">
+	<tr>
+		<th colspan=3 style="width: 525px;">One-Way</th>
+		<th colspan=1 style="width: 175px;">Two-Way</th>
+	</tr>
 	<tr>
 		<th style="width: 175px;">Accusative</th>
 		<th style="width: 175px;">Dative</th>
 		<th style="width: 175px;">Genitive</th>
+		<th style="width: 175px;">Accusative<br>or<br>Dative</th>
 	</tr>
 	<tr>
-		<td>durch<br>f&#xFC;r<br>gegen<br>ohne<br>um</td>
-		<td>aus<br>au&#xDF;er<br>bei<br>mit<br>nach<br>seit<br>von<br>zu<br>gegen&#xFC;ber</td>
-		<td>anstatt<br>aufgrund<br>au&#xDF;erhalb<br>innerhalb<br>trotz<br>w&#xE4;hrend<br>wegen</td>
+		<td>bis<br>durch<br>f&#xFC;r<br>gegen<br>ohne<br>um</td>
+		<td>aus<br>au&#xDF;er<br>bei<br>entgegen<br>gegen&#xFC;ber<br>mit<br>nach<br>samt<br>seit<br>von<br>zu</td>
+		<td>anstatt<br>aufgrund<br>au&#xDF;erhalb<br>innerhalb<br>trotz<br>w&#xE4;hrend<br>wegen<br>zuz&#xFC;glich</td>
+		<td>an<br>auf<br>hinter<br>in<br>neben<br>&#xFC;ber<br>unter<br>vor<br>zwischen</td>
 	</tr>
 </table>
 </center>
 
 <br>
 
-<a id="section11_conjunctions"><hr></a>
+<center>
+<img class="img-margin-bottom-no" width="620" height="475" src="german_figure_prepositions.png" id="imgPrepositionsTwoWay">
+<br>
+<label class="label-img-caption" for="imgPrepositionsTwoWay"><font style="font-weight: bold;">Figure:</font> Graphic to help remember the two-way prepositions.</label>
+</center>
 
-<p class="p-heading">XI. Conjunctions</p>
+<a id="section13_conjunctions"><hr></a>
+
+<p class="p-heading">XIII. Conjunctions</p>
 <br>
 <p class="p-text">
-Table 18 lists common coordinating and subordinating conjunctions. Subordinating conjunctions affect word order, specifically the location of the conjugated verb.
+Conjunctions are either coordinating or subordinating. Coordinating conjunctions do not affect word order whereas subordinating conjunctions force the conjugated verb to the end of the clause. Table 20 lists common conjunctions.
 </p>
 
 <center>
-<label class="label-table" for="tableConjunctions">Table 18. Coordinating and Subordinating Conjunctions</label>
+<label class="label-table" for="tableConjunctions">Table 20. Conjunctions</label>
 <table class="table-general" id="tableConjunctions">
 	<tr>
 		<th style="width: 175px;">Coordinating</th>
@@ -2439,16 +2574,16 @@ Table 18 lists common coordinating and subordinating conjunctions. Subordinating
 
 <br>
 
-<a id="section12_interjections"><hr></a>
+<a id="section14_interjections"><hr></a>
 
-<p class="p-heading">XII. Interjections</p>
+<p class="p-heading">XIV. Interjections</p>
 <br>
 <p class="p-text">
-Table 19 lists common interjections and their definitions.
+Table 21 lists common interjections and their definitions.
 </p>
 
 <center>
-<label class="label-table" for="tableInterjections">Table 19. Interjections</label>
+<label class="label-table" for="tableInterjections">Table 21. Interjections</label>
 <table class="table-zebra" id="tableInterjections">
 	<tr>
 		<th style="width: 175px;">Interjection</th>
